@@ -4,7 +4,9 @@ title: 'Salmonella Isangi: genomic epidemiology and resistance analysis'
 type: software
 version: 1.0.0
 date-released: '2026-09-21'
+doi: 10.5281/zenodo.22884463
 repository-code: 'https://github.com/PeterJohnston296/salmonella-isangi'
+repository-artifact: 'https://doi.org/10.5281/zenodo.22884463'
 authors:
 - family-names: Johnston
   given-names: Peter I.

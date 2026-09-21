@@ -102,6 +102,6 @@ The checks cover isolate/accession linkage, tree membership, complete and subset
 
 ## Citation and reuse
 
-Use `CITATION.cff` to cite this software archive. The repository is <https://github.com/PeterJohnston296/salmonella-isangi>. Archive DOI identifiers will be added only after Zenodo creates them. Code licensing and the treatment of source data and artwork are set out in `LICENSE` and `NOTICE.md`.
+Use `CITATION.cff` to cite this software archive. The repository is <https://github.com/PeterJohnston296/salmonella-isangi>. Version 1.0.0 is archived at <https://doi.org/10.5281/zenodo.22884463>. Code licensing and the treatment of source data and artwork are set out in `LICENSE` and `NOTICE.md`.
 
 The public data omit patient identifiers, personal dates and free-text clinical histories. Raw reads remain in the sequence archives rather than in Git.
