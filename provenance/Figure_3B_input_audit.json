@@ -1,0 +1,11 @@
+{
+  "NCBI_total_records": 810858,
+  "wholly_empty_TSV_records_ignored": 12,
+  "NCBI_Isangi_excluded": 539,
+  "NCBI_comparator_records": 810319,
+  "NCBI_unresolved_serovar_in_comparator": 1137,
+  "NCBI_blank_genotype_cells": 22540,
+  "study_records": 345,
+  "study_records_absent_from_hit_file": 39,
+  "other_Isangi_unassigned_ST": 6
+}

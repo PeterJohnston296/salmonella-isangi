@@ -1,0 +1,49 @@
+Quast 240502024
+
+BASE_DIR="/data/fast/salmonella/pjohnston/isangi/all_spades"
+
+RESULTS_DIR="/data/fast/salmonella/pjohnston/isangi/all_quast_no_reference"
+mkdir -p $RESULTS_DIR
+
+for ISOLATE_DIR in $BASE_DIR/*
+do
+    if [ -d "$ISOLATE_DIR" ]; then
+        DIR_NAME=$(basename $ISOLATE_DIR)
+        ISOLATE_ID=${DIR_NAME%_assembly}
+
+        ASSEMBLY_FILE=$(find $ISOLATE_DIR -type f -name "*contigs.fasta")
+
+        echo "Running QUAST on $ASSEMBLY_FILE"
+
+        quast -o $RESULTS_DIR/$ISOLATE_ID -t 12 $ASSEMBLY_FILE
+    else
+        echo "$ISOLATE_DIR is not a directory"
+    fi
+done
+
+echo "QUAST analysis completed for all assemblies."
+
+##
+
+#!/bin/bash
+
+RESULTS_DIR="/data/fast/salmonella/pjohnston/isangi/all_quast_no_reference"
+OUTPUT_FILE="/data/fast/salmonella/pjohnston/isangi/quast_combined_results.tsv"
+echo -e "IsolateID\t# contigs (>= 0 bp)\t# contigs (>= 1000 bp)\tTotal length (>= 0 bp)\tTotal length (>= 1000 bp)\t# contigs\tLargest contig\tTotal length\tGC (%)\tN50\tN75\tL50\tL75\t# N's per 100 kbp" > $OUTPUT_FILE
+for RESULT_DIR in $RESULTS_DIR/*
+do
+    if [ -d "$RESULT_DIR" ]; then
+        ISOLATE_ID=$(basename $RESULT_DIR)
+        REPORT_FILE="$RESULT_DIR/report.tsv"
+        if [ -f "$REPORT_FILE" ]; then
+            VALUES=$(awk -F'\t' 'NR>1 {print $2}' $REPORT_FILE | paste -sd "\t" -)
+            echo -e "${ISOLATE_ID}\t${VALUES}" >> $OUTPUT_FILE
+        else
+            echo "No report file found in $RESULT_DIR"
+        fi
+    fi
+done
+echo "Combined QUAST results saved to $OUTPUT_FILE"
+
+
+sed 's/\t/,/g' quast_combined_results.tsv > quast_combined_results.csv

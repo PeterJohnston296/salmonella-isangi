@@ -1,0 +1,65 @@
+
+
+
+bash -c '
+id_file="$1"
+
+if [ ! -f "$id_file" ]; then
+    echo "File not found: $id_file"
+    exit 1
+fi
+
+output_file="id_check.txt"
+
+> "$output_file"
+
+while IFS= read -r id; do
+    count=0
+    for file in *.fastq.gz; do
+        if [[ "$file" == *"$id"* ]]; then
+            count=$((count + 1))
+        fi
+    done
+    echo "ID: $id, Count: $count" >> "$output_file"
+done < "$id_file"
+' -- /data/fast/salmonella/pjohnston/isangi/all_fastq/all_miseq_identifers.txt
+
+##
+
+#!/bin/bash
+bash -c '
+
+id_file="$1"
+
+if [ ! -f "$id_file" ]; then
+    echo "File not found: $id_file"
+    exit 1
+fi
+
+output_file="id_check.txt"
+no_match_file="no_match.txt"
+
+> "$output_file"
+> "$no_match_file"
+
+while IFS= read -r id; do
+    count=0
+    for file in *.fastq.gz; do
+        if [[ "$file" == *"$id"* ]]; then
+            count=$((count + 1))
+        fi
+    done
+    if [ "$count" -eq 0 ]; then
+        echo "ID: $id, No matches found" >> "$no_match_file"
+    fi
+    echo "ID: $id, Count: $count" >> "$output_file"
+done < "$id_file"
+' -- /data/fast/salmonella/pjohnston/isangi/all_fastq/all_miseq_identifers.txt
+
+##
+
+#!/bin/bash
+
+output_file="filenames.csv"
+> "$output_file"
+ls -1 | awk '{print $0}' > "$output_file"

@@ -1,0 +1,8 @@
+parallel -j 8 '
+ if [ -n {} ]; then 
+ srr=$( esearch -db sra -query {} | efetch -format runinfo | cut -d "," -f 1 | grep -e SRR -e ERR ) 
+ fastq-dump --split-files $srr 
+ fi 
+ ' ::: $(cat ids.txt)
+
+  srr=$( esearch -db sra -query SRS4170645 | efetch -format runinfo | cut -d "," -f 1 | grep -e SRR -e ERR )

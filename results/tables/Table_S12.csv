@@ -1,0 +1,18 @@
+code,antibiotic,disc_content_ug,category
+AMP10,Ampicillin,10,Penicillins
+AZM15,Azithromycin,15,Macrolides
+CIP5,Ciprofloxacin,5,Fluoroquinolones
+FOX30,Cefoxitin,30,Cephamycins
+MEM10,Meropenem,10,Carbapenems
+C30,Chloramphenicol,30,Phenicols
+PEF5,Pefloxacin,5,Fluoroquinolones (screen)
+FEP30,Cefepime,30,Fourth-generation cephalosporins
+SXT25,Co-trimoxazole,25,Folate-pathway combination
+TCG15,Tigecycline,15,Glycylcyclines
+IPM10,Imipenem,10,Carbapenems
+AK30,Amikacin,30,Aminoglycosides
+CPD10,Cefpodoxime,10,Third-generation cephalosporins
+ATM30,Aztreonam,30,Monobactams
+CN10,Gentamicin,10,Aminoglycosides
+TZP36,Piperacillin–tazobactam,30/6,Antipseudomonal penicillin/inhibitor
+CTX5,Cefotaxime,5,Third-generation cephalosporins

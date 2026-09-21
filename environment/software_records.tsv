@@ -1,0 +1,14 @@
+software	recorded_version	evidence
+BBDuk	38.9	Manuscript version; trimming arguments in historical commands
+SPAdes	4.0.0	Manuscript version; --careful in historical commands
+QUAST	5.3.0	Manuscript version
+SISTR	1.1.0	Manuscript version
+mlst	2.22.0	Manuscript version; Achtman Salmonella scheme
+AMRFinderPlus	4.0.15	Manuscript version; recorded historical database 2024-05-02.2
+Flye	2.9.5	Manuscript version
+Medaka	2.0.1	Manuscript version; two passes in reference-building record
+POLCA	3.4.1	Manuscript version; historical reference commands use pypolca
+Gubbins	3.4	Manuscript version
+RAxML-NG	1.2.2	Manuscript version; historical late commands use classic RAxML
+RHierBAPS	1.1.3	Manuscript version; publication analysis uses archived assignments
+mob_typer	3.1.9	Manuscript version

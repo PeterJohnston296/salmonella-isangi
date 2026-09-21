@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: Please cite this archive when using the analysis code or processed data.
+title: 'Salmonella Isangi: genomic epidemiology and resistance analysis'
+type: software
+version: 1.0.0
+date-released: '2026-09-21'
+repository-code: 'https://github.com/PeterJohnston296/salmonella-isangi'
+authors:
+- family-names: Johnston
+  given-names: Peter I.
+- family-names: Kutambe
+  given-names: Belson
+- family-names: Ashton
+  given-names: Philip M.
+abstract: Analysis code, fixed genomic and phenotypic inputs, isolate-to-accession
+  linkage and figure-generation resources accompanying Genomic epidemiology of hospital-associated
+  XDR Salmonella Isangi in Malawi and South Africa.
+keywords:
+- Salmonella Isangi
+- genomic epidemiology
+- antimicrobial resistance
+- Malawi
+- South Africa
+- phylogeny
+license: MIT

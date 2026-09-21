@@ -1,0 +1,21 @@
+# I ran the following code from within the directory that my assemblies are located 
+(/data/fast/salmonella/pjohnston/isangi/rigby/shovill_out_rigby)
+
+$ mlst --quiet */*_contigs.fa > rigby_mlst_tsv
+
+## this gives me a .tsv
+
+#!/bin/bash
+
+
+input_file="rigby_mlst_tsv"
+
+output_file="rigby_mlst.csv"
+
+sed 's/\t/,/g' "$input_file" > "$output_file"
+
+echo "TSV file converted to CSV. Output saved to $output_file."
+
+##
+
+# I then combined all the resulting csv files using R

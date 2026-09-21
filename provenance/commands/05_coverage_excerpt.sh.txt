@@ -1,0 +1,10 @@
+# N18: arithmetic as recorded; not a certified whole-reference breadth measure.
+samtools depth "$bam_file" > "$coverage_file"
+total_bases=$(wc -l < "$coverage_file")
+covered_bases=$(awk '$3 >= 5' "$coverage_file" | wc -l)
+percentage_coverage=$(echo "scale=2; ($covered_bases / $total_bases) * 100" | bc)
+
+# N17's separate reference-only check instead used:
+samtools depth -a CHF10J1.sam > CHF10J1.depth.txt
+# These are distinct historical commands. Do not silently add -a to N18 and
+# describe the resulting changed denominator as what was done historically.

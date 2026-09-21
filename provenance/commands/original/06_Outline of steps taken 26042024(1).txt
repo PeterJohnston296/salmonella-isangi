@@ -1,0 +1,19 @@
+Having got a table containing mlst results, sistr output and eBurst groups for all of the ncbi isolates it is apparent that 
+at least three of the 274 isolates are not Isangi (according to SISTR antigen and cgMLST)
+
+these isolates are:
+
+SRR1264948
+SRR1264936
+SRR9942635
+
+there is one isolate (SRR22163673) whose antigenic formulae predict it to be Salmonella Chandans but cgMLST = Isangi
+I have left this in the analysis for now.
+
+I will therefore remove the directories within "/data/fast/salmonella/pjohnston/isangi/NCBI/shovill_out_ncbi"
+that pertain to these isolates, meaning that only assemblies relating to Isangi bacteria remain
+
+271 assemblies remain
+
+
+

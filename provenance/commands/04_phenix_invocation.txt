@@ -1,0 +1,6 @@
+# N18 explicitly displays this invocation for other_phenix.nf:
+nextflow run -with-docker flashton/phenix-threaded-samtools:latest /data/fast/salmonella/pjohnston/isangi/scripts/other_phenix.nf -resume
+
+# N18 subsequently saves third_phenix.nf and says "This has worked".
+# An otherwise-identical invocation targeting third_phenix.nf is an inference,
+# not a separately displayed notebook command. The collector seeks all variants.

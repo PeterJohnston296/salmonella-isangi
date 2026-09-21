@@ -1,0 +1,81 @@
+check,result
+345 unique publication isolates,pass
+345 unique run accessions,pass
+80 deposited isolates link to publication cohort,pass
+327 unique CC25 tree tips,pass
+224 ST335 tips are an exact CC25 subset,pass
+Approved circular tree has the CC25 tip set,pass
+CC25 sequence-type counts,pass
+18 publication isolates outside the CC25 tree,pass
+Four explicit matrix-only isolates,pass
+Matrix-only isolates not inserted in the publication cohort,pass
+CC25_tree_aligned_327.csv: exact symmetric subset,pass
+ST335_tree_aligned_224.csv: exact symmetric subset,pass
+Malawi_ST335_74.csv: exact symmetric subset,pass
+South_Africa_outbreak_ST335_37.csv: exact symmetric subset,pass
+Malawi_74_source_matrix.csv: exact symmetric subset,pass
+Malawi and South Africa SNP ranges,pass
+Country-specific matrix membership,pass
+CC25-01: exact detail submatrix,pass
+CC25-02: exact detail submatrix,pass
+CC25-03: exact detail submatrix,pass
+CC25-04: exact detail submatrix,pass
+CC25-05: exact detail submatrix,pass
+CC25-06: exact detail submatrix,pass
+CC25-07: exact detail submatrix,pass
+CC25-08: exact detail submatrix,pass
+CC25-09: exact detail submatrix,pass
+CC25-10: exact detail submatrix,pass
+CC25-11: exact detail submatrix,pass
+CC25-12: exact detail submatrix,pass
+ST335-01: exact detail submatrix,pass
+ST335-02: exact detail submatrix,pass
+ST335-03: exact detail submatrix,pass
+ST335-04: exact detail submatrix,pass
+ST335-05: exact detail submatrix,pass
+ST335-06: exact detail submatrix,pass
+ST335-07: exact detail submatrix,pass
+CC25 detail panels cover every tip once,pass
+ST335 detail panels cover every tip once,pass
+CC25-01: consecutive within-lineage panel,pass
+CC25-02: consecutive within-lineage panel,pass
+CC25-03: consecutive within-lineage panel,pass
+CC25-04: consecutive within-lineage panel,pass
+CC25-05: consecutive within-lineage panel,pass
+CC25-06: consecutive within-lineage panel,pass
+CC25-07: consecutive within-lineage panel,pass
+CC25-08: consecutive within-lineage panel,pass
+CC25-09: consecutive within-lineage panel,pass
+CC25-10: consecutive within-lineage panel,pass
+CC25-11: consecutive within-lineage panel,pass
+CC25-12: consecutive within-lineage panel,pass
+ST335-01: consecutive within-lineage panel,pass
+ST335-02: consecutive within-lineage panel,pass
+ST335-03: consecutive within-lineage panel,pass
+ST335-04: consecutive within-lineage panel,pass
+ST335-05: consecutive within-lineage panel,pass
+ST335-06: consecutive within-lineage panel,pass
+ST335-07: consecutive within-lineage panel,pass
+42 paired AST records,pass
+All 17 recorded antibiotics retained,pass
+Recorded AST calls preserved,pass
+714 numeric inhibition-zone measurements,pass
+"19 Isangi, 23 comparators, 12 phenotypic XDR",pass
+Every phenotyped Isangi links to ST335,pass
+Recorded retained-susceptibility counts,pass
+Antibiotic dictionary order,pass
+345 by 55 explicit curated genomic calls,pass
+199 ST335 genomic XDR-associated profiles,pass
+Genomic profiles match all 345 stored flags,pass
+Six ST335 carbapenemase-marker profiles,pass
+Matched 19 genomic profiles retained separately from 12 phenotypes,pass
+Annual surveillance counts and percentages: 2015,pass
+Annual surveillance counts and percentages: 2016,pass
+Annual surveillance counts and percentages: 2017,pass
+Annual surveillance counts and percentages: 2018,pass
+Annual surveillance counts and percentages: 2019,pass
+Annual surveillance counts and percentages: 2020,pass
+Annual surveillance counts and percentages: 2021,pass
+Annual surveillance counts and percentages: 2022,pass
+Annual surveillance counts and percentages: 2023,pass
+Original 331-source matrix matches canonical numeric archive,pass

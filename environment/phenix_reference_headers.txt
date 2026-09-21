@@ -1,0 +1,4 @@
+# Replace these examples with the exact header(s) present in the final
+# CHF10J1 reference and PHEnix *_all.fasta files. Blank lines and lines
+# beginning with # are ignored. Extraction refuses to use substring matching.
+reference

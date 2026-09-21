@@ -1,0 +1,91 @@
+## The below script uses GNU parrallel and commands from NCBI's Entrez Direct suite ('esearch' and 'efetch') along with fastq-dump.
+
+parallel - j 8 (uses GNU parallel to execute the commands that follow in single quotes)
+
+if [ -n {} ]; then'   (this checks if the string (an identifier from 'ids.txt' is non-empty. If it is non-empty, then the commands inside the if block are executed))
+
+'esearch -db sra -query {} (searches the SRA database for the query provided as {}, which is each identifier from 'ids.txt'
+efetch -format runinfo (fetches the run information for the search result inCSV format
+cut -d "," -f 1 (cuts the first column from the CSV output, which contains the SRR or ERR identifiers))
+grep -e SRR -e ERR (filters lines to only include those containin "SRR or ERR" which are prefixes for SRA run identifiers.)
+fastq-dump --split-files $srr (for each identifier found in the previous step download the file)
+
+parallel -j 8 '
+ if [ -n {} ]; then 
+ srr=$( esearch -db sra -query {} | efetch -format runinfo | cut -d "," -f 1 | grep -e SRR -e ERR ) 
+ fastq-dump --split-files $srr 
+ fi 
+ ' ::: $(cat ids.txt)
+
+  # This is an example of similar script, but just to download one pair of files.
+
+  srr=$( esearch -db sra -query SRS4170645 | efetch -format runinfo | cut -d "," -f 1 | grep -e SRR -e ERR )
+
+  # Now need to gzip all of the files and find the six files that are not present
+
+
+# Navigate to the directory containing the .fastq files
+# cd /path/to/directory
+
+# Loop through each .fastq file in the current directory
+
+for file in *.fastq
+do
+  echo "Compressing $file..."
+  gzip "$file"
+done
+
+echo "Compression complete."
+
+# Next, I want to make a text file containing all of the unique accession numbers. Then I need to write a script that will go the other way, and return the SRS or ERS number
+
+ls | grep -oP '.*(?=_1\.fastq\.gz)' | sort -u > unique_prefixes_1.txt
+
+echo "Unique prefixes have been saved to unique_prefixes_1.txt"
+
+#  I find that there are 275 unique prefixes for the _1.fastq.gz files;
+
+ls | grep -oP '.*(?=_1\.fastq\.gz)' | sort -u > unique_prefixes_2.txt
+
+echo "Unique prefixes have been saved to unique_prefixes_2.txt"
+
+# By contrast there are only 274 unique prefixes for _2.fastq.gz. By comparing the two files:
+
+diff unique_prefixes_1.txt unique_prefixes_2.txt
+
+# I find that SRR7554919 is present in "unique_prefixes_1.txt" but not in "unique_prefixes_2.txt" I will need to check this out and re-download the associated fastq.files later on.
+
+
+# Now take the prefixes from "unique_prefixes_2.txt" and return SRS numbers
+
+
+
+#!/bin/bash
+
+input_file="/data/fast/salmonella/pjohnston/isangi/NCBI/NCBI_fastq/unique_prefixes_2.txt"
+output_file="/data/fast/salmonella/pjohnston/isangi/NCBI/NCBI_fastq/output.txt"
+
+
+for identifier in $(cat $input_file); do
+
+  result=$(esearch -db sra -query "$identifier" | efetch -format docsum | grep -e SRS -e ERS)
+
+  echo "$identifier $result" >> "$output_file"
+
+done
+
+# This gives me a txt file "output.txt". This contains 274 unique SRS / ERS numbers, but in this format:
+
+<Sample acc="SRS4305031" name=""/>
+
+input_file="/data/fast/salmonella/pjohnston/isangi/NCBI/NCBI_fastq/output.txt"
+output_file="/data/fast/salmonella/pjohnston/isangi/NCBI/NCBI_fastq/extracted_srs_ers"
+
+# Use grep to find lines containing the patterns, then sed to extract the desired substring
+grep -oE 'SRS[0-9]+|ERS[0-9]+' "$input_file" > "$output_file"
+
+echo "Operation completed. Extracted strings have been written to $output_file."
+
+# When I looked on the NCBI database, it turns out that the remaining ERS/SRS numbers DO NOT have matching accession numbers. This leaves 274 genomes to take forward for analysis 
+
+esearch  -db sra -query SRS909515 | esummary | grep -e ERR -e SRR

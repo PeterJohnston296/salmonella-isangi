@@ -1,0 +1,17 @@
+*.R text eol=lf
+*.qmd text eol=lf
+*.sh text eol=lf
+*.py text eol=lf
+*.nf text eol=lf
+# Fixed tables are byte-preserved inputs and provenance records.  Do not let
+# Git normalise historical CRLF files on the first commit or on checkout.
+*.csv -text
+*.tsv -text
+data/** -text
+results/reference/** -text
+results/tables/** -text
+provenance/commands/** -text
+*.tiff binary
+*.png binary
+*.jpg binary
+*.gz binary

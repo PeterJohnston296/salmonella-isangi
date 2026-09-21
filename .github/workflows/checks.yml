@@ -1,0 +1,42 @@
+name: Checks
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+    inputs:
+      render_figures:
+        type: boolean
+        default: false
+        description: Render all publication figures
+jobs:
+  data:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - run: python -m pip install -r environment/requirements.txt
+      - run: python scripts/audit.py --burden
+      - run: python -m unittest discover -s tests -v
+  r:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: r-lib/actions/setup-r@v2
+        with:
+          r-version: '4.5.0'
+          use-public-rspm: true
+      - run: sudo apt-get update && sudo apt-get install -y libmagick++-dev libharfbuzz-dev libfribidi-dev libfontconfig1-dev libfreetype6-dev libpng-dev libtiff-dev libjpeg-dev fonts-dejavu-core
+      - run: Rscript environment/install.R
+      - run: Rscript tests/check_R.R
+      - if: github.event_name == 'workflow_dispatch' && inputs.render_figures
+        run: Rscript scripts/reproduce.R
+      - if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: r-validation
+          path: |
+            results/environment/
+            results/rebuilt/
+          if-no-files-found: ignore

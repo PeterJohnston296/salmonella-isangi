@@ -1,0 +1,39 @@
+##script to run sistr on all the Jon Rigby environmental isolates (output of shovill, contigs.fa")
+
+input_dir="/data/fast/salmonella/pjohnston/isangi/rigby/shovill_out_rigby"
+output_dir="/data/fast/salmonella/pjohnston/isangi/rigby/sistr_out_rigby"
+single_output_csv="$output_dir/combined_sistr_output.csv"
+
+mkdir -p "$output_dir"
+
+first_file=$(find "$input_dir" -type f -name "*_contigs.fa" | head -n 1)
+if [[ -n "$first_file" ]]; then
+  filename=$(basename "$first_file" _contigs.fa)
+  
+  sistr -i "$first_file" "$filename" -f csv -o "$single_output_csv"
+  
+  sed -i '1s/^/Accession,/' "$single_output_csv"
+else
+  echo "No FASTA files found in the input directory."
+  exit 1
+fi
+
+export input_dir
+export output_dir
+export single_output_csv
+
+process_file() {
+  file="$1"
+  filename=$(basename "$file" _contigs.fa)  
+  temp_csv="/tmp/${filename}_sistr_output.csv"
+  sistr -i "$file" "$filename" -f csv -o "$temp_csv"
+  awk -v acc="$filename" 'NR==1{next} {print acc "," $0}' "$temp_csv" >> "$single_output_csv"
+  echo "Results saved for $file to CSV: $single_output_csv"
+  rm "$temp_csv"
+}
+
+export -f process_file
+
+find "$input_dir" -type f -name "*_contigs.fa" | parallel process_file
+
+echo "All files have been processed and results are combined in $single_output_csv."

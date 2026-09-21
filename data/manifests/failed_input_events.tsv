@@ -1,0 +1,3 @@
+reported_id	stage	reason	source_ids	complete_sequencing_alias
+CIV146U1	assembly; cohort PHEnix	failed sequencing/assembly noted; paired reads later recorded as not matching	N08;N18	not recovered
+ERR10442662	assembly; cohort PHEnix	no contigs and stale QUAST result; paired reads later recorded as not matching	N05;N08;N18	ERR10442662

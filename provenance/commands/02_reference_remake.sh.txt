@@ -1,0 +1,24 @@
+# Selected later commands, N15. Not the earlier failed three-round polca.sh script.
+# These snippets came from separate notebook blocks.
+LONG_READS="/data/fast/salmonella/pjohnston/isangi/second_reference/nanopore_reads/CHF10J1.guppy5.sup.fastq.gz"
+OUT_DIR="/data/fast/salmonella/pjohnston/isangi/second_reference/polished_assembly/"
+flye --nano-raw $LONG_READS --out-dir $OUT_DIR --genome-size 5m --threads 8
+
+# The later successful-in-prose Medaka block:
+INPUT_ASSEMBLY="assembly.fasta"
+LONG_READS="/data/fast/salmonella/pjohnston/isangi/second_reference/nanopore_reads/CHF10J1.guppy5.sup.fastq.gz"
+for i in {1..2}; do
+    OUTPUT_DIR="medaka_polished_round_$i"
+    medaka_consensus -i $LONG_READS -d $INPUT_ASSEMBLY -o $OUTPUT_DIR -t 8 || { echo "Medaka polishing round $i failed."; exit 1; }
+    cp $OUTPUT_DIR/consensus.fasta $INPUT_ASSEMBLY
+done
+
+# N15 has an uncontinued newline after -2 in each pypolca block.
+# It is retained below; see normalization log rather than running this transcription.
+pypolca run -a /data/fast/salmonella/pjohnston/isangi/second_reference/polished_assembly/medaka_polished_round_2/consensus.fasta -1 /data/fast/salmonella/pjohnston/isangi/second_reference/short_reads/CHF10J1_bbduk_1.fastq.gz -2
+/data/fast/salmonella/pjohnston/isangi/second_reference/short_reads/CHF10J1_bbduk_2.fastq.gz -t 12 -o /data/fast/salmonella/pjohnston/isangi/second_reference/polished_assembly/pypolca_out --careful
+
+pypolca run -a /data/fast/salmonella/pjohnston/isangi/second_reference/polished_assembly/pypolca_out/pypolca_corrected.fasta -1 /data/fast/salmonella/pjohnston/isangi/second_reference/short_reads/CHF10J1_bbduk_1.fastq.gz -2
+/data/fast/salmonella/pjohnston/isangi/second_reference/short_reads/CHF10J1_bbduk_2.fastq.gz -t 12 -o /data/fast/salmonella/pjohnston/isangi/second_reference/polished_assembly/pypolca_out/pypolca_2nd_round --careful
+
+mv pypolca_corrected.fasta CHF10J1_final_polished_reference.fasta

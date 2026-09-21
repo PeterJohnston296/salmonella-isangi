@@ -1,0 +1,108 @@
+## In this section I use sistr_cmd to type the Isangi isolates obtained from genbank.
+# Working on genome assemblies from trimmomatic (*_contgs.fa) (where *  = the accession number, ERR or SRR)
+
+First I need to find all *_contigs.fa files from the multiple subdirectories and copy them into one directory, which I label "assemblies":
+
+$find . -type f -name "*_contigs.fa" -exec cp {} /data/fast/salmonella/pjohnston/isangi/NCBI/shovill_out_ncbi/assemblies/ \;
+
+
+## next use the environment that Phil made for sistr (remember he needed to use pip install not conda for creating this environment)
+
+$ conda activate sistr_environment
+
+## now run the following command which will find all the contigs.fa files in the input directory specified, make an output directory, perform sistr_cmd on each file and write the results to a .csv file in the specified output directory.
+
+
+input_dir="/data/fast/salmonella/pjohnston/isangi/NCBI/shovill_out_ncbi/assemblies"
+output_dir="/data/fast/salmonella/pjohnston/isangi/NCBI/shovill_out_ncbi/assemblies/sistr_out"
+mkdir -p "$output_dir"  
+for file in "$input_dir"/*.fa
+do
+  echo "Processing $file..."
+  filename=$(basename "$file" .fa)  # Extracting the base filename without extension
+  output_csv="$output_dir/${filename}_sistr_output.csv"  # Path for the output CSV file
+  output_json="$output_dir/${filename}_sistr_output.json"  # Path for the output JSON file
+  sistr -i "$file" "$filename" -o "$output_csv"
+  echo "Results saved for $file to CSV: $output_csv"
+done
+echo "All files have been processed."
+
+## now I want to run the same thing, but using parrallel command and outputting only the primary results, in just .csv format, and combining all results into one table
+
+input_dir="/data/fast/salmonella/pjohnston/isangi/NCBI/shovill_out_ncbi/assemblies"
+output_dir="/data/fast/salmonella/pjohnston/isangi/NCBI/shovill_out_ncbi/assemblies/sistr_out_combined"
+single_output_csv="$output_dir/combined_sistr_output.csv"  # Path for the combined output CSV file
+
+# Create the output directory if it doesn't exist
+mkdir -p "$output_dir"
+
+# Initialize the combined CSV with headers by processing the first file to extract headers
+first_file=$(ls "$input_dir"/*contigs.fa | head -n 1)
+if [[ -n "$first_file" ]]; then
+  filename=$(basename "$first_file" contigs.fa)
+  # Run sistr and include headers in CSV format
+  sistr -i "$first_file" "$filename" -f csv -o "$single_output_csv"
+  # Adjust headers to add accession number as the first column
+  sed -i '1s/^/Accession,/' "$single_output_csv"  # Prepend 'Accession,' to the headers
+else
+  echo "No FASTA files found in the input directory."
+  exit 1
+fi
+
+export input_dir
+export output_dir
+export single_output_csv
+
+# Export function to be used by parallel
+process_file() {
+  file=$1
+  filename=$(basename "$file" contigs.fa)  # Extracting the base filename without extension, assumed to be the accession number
+  temp_csv="/tmp/${filename}_sistr_output.csv"  # Temporary path for the output CSV file
+  sistr -i "$file" "$filename" -f csv -o "$temp_csv"
+  # Add accession number to each row in the temporary CSV, skipping the header
+  awk -v acc="$filename" 'NR==1{next} {print acc "," $0}' "$temp_csv" >> "$single_output_csv"
+  echo "Results saved for $file to CSV: $single_output_csv"
+  # Optionally remove the temporary file if disk space is a concern
+  rm "$temp_csv"
+}
+
+export -f process_file
+
+# Use GNU parallel to process each file in parallel
+parallel process_file ::: "$input_dir"/*.fa
+
+echo "All files have been processed and results are combined in $single_output_csv."
+
+
+## and the above script but with explanation removed:
+
+input_dir="/data/fast/salmonella/pjohnston/isangi/NCBI/shovill_out_ncbi/assemblies"
+output_dir="/data/fast/salmonella/pjohnston/isangi/NCBI/shovill_out_ncbi/assemblies/sistr_out_combined"
+single_output_csv="$output_dir/combined_sistr_output.csv"  
+mkdir -p "$output_dir"
+first_file=$(ls "$input_dir"/*_contigs.fa | head -n 1)
+if [[ -n "$first_file" ]]; then
+  filename=$(basename "$first_file" _contigs.fa)
+  # Run sistr and include headers in CSV format
+  sistr -i "$first_file" "$filename" -f csv -o "$single_output_csv"
+  # Adjust headers to add accession number as the first column
+  sed -i '1s/^/Accession,/' "$single_output_csv" 
+else
+  echo "No FASTA files found in the input directory."
+  exit 1
+fi
+export input_dir
+export output_dir
+export single_output_csv
+process_file() {
+  file=$1
+  filename=$(basename "$file" _contigs.fa)  
+  temp_csv="/tmp/${filename}_sistr_output.csv"
+  sistr -i "$file" "$filename" -f csv -o "$temp_csv"
+  awk -v acc="$filename" 'NR==1{next} {print acc "," $0}' "$temp_csv" >> "$single_output_csv"
+  echo "Results saved for $file to CSV: $single_output_csv"
+  rm "$temp_csv"
+}
+export -f process_file
+parallel process_file ::: "$input_dir"/*.fa
+echo "All files have been processed and results are combined in $single_output_csv."

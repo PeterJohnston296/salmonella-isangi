@@ -1,0 +1,82 @@
+[
+  {
+    "file": "Figure_1D_Blantyre_map.png",
+    "name": "Figure_1D_Blantyre_map",
+    "area": "main",
+    "width_inches": 7.0,
+    "source": "Original main DOCX embedded artwork",
+    "title_masks": []
+  },
+  {
+    "file": "Figure_5_plasmid_comparison.png",
+    "name": "Figure_5_plasmid_comparison",
+    "area": "main",
+    "width_inches": 10.4,
+    "source": "Original main DOCX embedded artwork",
+    "title_masks": []
+  },
+  {
+    "file": "Figure_S1_plasmid_network.png",
+    "name": "Figure_S1_plasmid_network",
+    "area": "supplementary",
+    "width_inches": 4.2,
+    "source": "Original supp DOCX embedded artwork",
+    "title_masks": []
+  },
+  {
+    "file": "Figure_S2_confocal_biofilms.png",
+    "name": "Figure_S2_confocal_biofilms",
+    "area": "supplementary",
+    "width_inches": 10.4,
+    "source": "Original supp DOCX embedded artwork",
+    "title_masks": []
+  },
+  {
+    "file": "Figure_S3_biofilm_quantification.png",
+    "name": "Figure_S3_biofilm_quantification",
+    "area": "supplementary",
+    "width_inches": 10.4,
+    "source": "Original supp DOCX embedded artwork",
+    "title_masks": [
+      [
+        170,
+        30,
+        700,
+        88
+      ],
+      [
+        1180,
+        30,
+        1780,
+        88
+      ],
+      [
+        250,
+        535,
+        650,
+        591
+      ],
+      [
+        1250,
+        535,
+        1680,
+        591
+      ]
+    ]
+  },
+  {
+    "file": "Figure_S4_mouse_survival.png",
+    "name": "Figure_S4_mouse_survival",
+    "area": "supplementary",
+    "width_inches": 7.5,
+    "source": "Original supp DOCX embedded artwork",
+    "title_masks": [
+      [
+        420,
+        15,
+        770,
+        72
+      ]
+    ]
+  }
+]

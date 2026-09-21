@@ -1,0 +1,9 @@
+category,markers
+Penicillin,blaLAP-2; blaSCO-1; blaTEM-1; blaOXA-1; blaOXA-10
+Chloramphenicol,catA1; cmlA5; floR
+Trimethoprim,dfrA1; dfrA12; dfrA14; dfrA15; dfrA17; dfrA23
+Sulfonamide,sul1; sul2; sul3
+Fluoroquinolone,qnrB; qnrB1; qnrB19; qnrS1; gyrA_D87N; gyrA_S83F; gyrB_S464F
+Third-generation cephalosporin,blaCTX-M-15; blaCTX-M-2; blaSHV-5; blaTEM-131; blaTEM-63
+Carbapenem,blaNDM-1; blaOXA-48
+Macrolide,mph(A); mph(E); msr(E)

@@ -1,0 +1,30 @@
+number,series,filename,script,description
+1,Main,Figure_1A_D_Genome_Medicine_600dpi.tiff,scripts/figures/01_epidemiology.R,Annual/timeline/MST rebuilt; panel D archived map
+2,Main,Figure_2_phenotypic_susceptibility.tiff,scripts/figures/02_susceptibility.R,19 isolates; exact 17-agent measurements and run accessions
+3,Main,Figure_3A_B_Genome_Medicine_600dpi.tiff,scripts/figures/03_phylogenies.R; scripts/analysis/03_amr_burden.R; scripts/figures/06_composite.R,Approved circular tree and gene-burden comparison
+4,Main,Figure_4_ST335_genomic_heatmap.tiff,scripts/figures/03_phylogenies.R,ST335 genomic heatmap; no phenotype duplication
+5,Main,Figure_5_plasmid_comparison.tiff,scripts/figures/05_retained_artwork.R,Source artwork
+1,Supplementary,Figure_S01_plasmid_network.tiff,scripts/figures/05_retained_artwork.R,Source artwork
+2,Supplementary,Figure_S02_confocal_biofilms.tiff,scripts/figures/05_retained_artwork.R,Source artwork
+3,Supplementary,Figure_S03_biofilm_quantification.tiff,scripts/figures/05_retained_artwork.R,Source artwork
+4,Supplementary,Figure_S04_mouse_survival.tiff,scripts/figures/05_retained_artwork.R,Source artwork
+5,Supplementary,Figure_S05_CC25_panel_index.tiff,scripts/figures/03_phylogenies.R,CC25 overview and panel key
+6,Supplementary,Figure_S06_CC25-01_labelled_tree.tiff,scripts/figures/03_phylogenies.R,CC25-01; isolate and run labels
+7,Supplementary,Figure_S07_CC25-02_labelled_tree.tiff,scripts/figures/03_phylogenies.R,CC25-02; isolate and run labels
+8,Supplementary,Figure_S08_CC25-03_labelled_tree.tiff,scripts/figures/03_phylogenies.R,CC25-03; isolate and run labels
+9,Supplementary,Figure_S09_CC25-04_labelled_tree.tiff,scripts/figures/03_phylogenies.R,CC25-04; isolate and run labels
+10,Supplementary,Figure_S10_CC25-05_labelled_tree.tiff,scripts/figures/03_phylogenies.R,CC25-05; isolate and run labels
+11,Supplementary,Figure_S11_CC25-06_labelled_tree.tiff,scripts/figures/03_phylogenies.R,CC25-06; isolate and run labels
+12,Supplementary,Figure_S12_CC25-05_repeated_plate.tiff,scripts/figures/03_phylogenies.R,Repeated CC25-05 in supplied appendix; no additional isolates
+13,Supplementary,Figure_S13_CC25-07_labelled_tree.tiff,scripts/figures/03_phylogenies.R,CC25-07; isolate and run labels
+14,Supplementary,Figure_S14_CC25-08_labelled_tree.tiff,scripts/figures/03_phylogenies.R,CC25-08; isolate and run labels
+15,Supplementary,Figure_S15_CC25-09_labelled_tree.tiff,scripts/figures/03_phylogenies.R,CC25-09; isolate and run labels
+16,Supplementary,Figure_S16_CC25-10_labelled_tree.tiff,scripts/figures/03_phylogenies.R,CC25-10; isolate and run labels
+17,Supplementary,Figure_S17_CC25-11_labelled_tree.tiff,scripts/figures/03_phylogenies.R,CC25-11; isolate and run labels
+18,Supplementary,Figure_S18_CC25-12_labelled_tree.tiff,scripts/figures/03_phylogenies.R,CC25-12; isolate and run labels
+19,Supplementary,Figure_S19_ST335_panel_index.tiff,scripts/figures/03_phylogenies.R,ST335 lineage overview
+20,Supplementary,Figure_S20_CC25_tree_aligned_327.tiff,scripts/figures/04_snp_matrices.R,327 CC25 SNP matrix
+21,Supplementary,Figure_S21_ST335_tree_aligned_224.tiff,scripts/figures/04_snp_matrices.R,224 ST335 SNP matrix
+22,Supplementary,Figure_S22_comparator_phenotypes.tiff,scripts/figures/04_snp_matrices.R,23 comparator susceptibility profiles
+23,Supplementary,Figure_S23_Malawi_ST335_74.tiff,scripts/figures/04_snp_matrices.R,74 Malawi isolates; linear scale
+24,Supplementary,Figure_S24_South_Africa_ST335_37.tiff,scripts/figures/04_snp_matrices.R,37 South African outbreak isolates; linear scale

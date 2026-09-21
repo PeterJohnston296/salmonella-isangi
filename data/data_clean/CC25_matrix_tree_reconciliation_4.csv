@@ -1,0 +1,5 @@
+isolate_id,run_accession,in_complete_331_matrix,in_327_tip_tree,in_tree_aligned_327_matrix,decision,source,country,year
+ERR11201713,ERR11201713,1,0,0,Retained in complete numeric matrix; not added to the supplied final tree,ebg_25_snpmatrix.tsv (source-rescue ZIP),South Africa,2022
+ERR9939684,ERR9939684,1,0,0,Retained in complete numeric matrix; not added to the supplied final tree,ebg_25_snpmatrix.tsv (source-rescue ZIP),South Africa,2022
+ERR9939690,ERR9939690,1,0,0,Retained in complete numeric matrix; not added to the supplied final tree,ebg_25_snpmatrix.tsv (source-rescue ZIP),South Africa,2022
+SRR3049609,SRR3049609,1,0,0,Retained in complete numeric matrix; not added to the supplied final tree,ebg_25_snpmatrix.tsv (source-rescue ZIP),United Kingdom,2015

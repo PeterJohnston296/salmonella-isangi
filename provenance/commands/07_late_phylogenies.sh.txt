@@ -1,0 +1,8 @@
+# N22 selected commands, preserving the recorded filenames and questionable prefix.
+run_gubbins.py --prefix quality_checked_ebg25_gubbins_output --threads 32 quality_checked_ebg_25.fasta
+raxmlHPC-PTHREADS -f a -m GTRGAMMA -p 12345 -x 12345 -# 1000 -T 32 -s quality_checked_ebg25_gubbins_output.filtered_polymorphic_sites.fasta -n ebg25_quality_assured_tree
+
+# ST335: --prefix below includes a suffix which the following -s does not repeat.
+# Preserve the discrepancy; use the existing output files/logs to resolve it.
+run_gubbins.py --prefix quality_checked_ST335_gubbins_output.filtered_polymorphic_sites.fasta --threads 32 quality_checked_ST335.fasta
+raxmlHPC-PTHREADS -f a -m GTRGAMMA -p 12345 -x 12345 -# 1000 -T 32 -s quality_checked_ST335_gubbins_output.filtered_polymorphic_sites.fasta -n ST335_quality_assured_tree

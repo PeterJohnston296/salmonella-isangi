@@ -1,0 +1,6 @@
+project:
+  type: default
+  execute-dir: project
+  output-dir: results/reports
+  render:
+    - scripts/Figure_3B_AMR_gene_burden.qmd

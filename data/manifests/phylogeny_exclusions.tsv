@@ -1,0 +1,5 @@
+analysis_id	exclude_from_cc25	exclude_from_st335	source_id	reason
+ERR11201713	true	true	N22	assembly QC exclusion carried into phylogeny
+SRR3049609	true	false	N22	assembly QC exclusion carried into phylogeny
+ERR9939690	true	true	N22	assembly QC exclusion carried into phylogeny
+ERR9939684	true	true	N22	assembly QC exclusion carried into phylogeny

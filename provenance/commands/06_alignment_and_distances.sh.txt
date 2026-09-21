@@ -1,0 +1,12 @@
+# N18: final-in-page reference-removal / merge command.
+BASE_DIR="/data/fast/salmonella/pjohnston/isangi/all_phenix/"
+OUTPUT_FILE="${BASE_DIR}/ebg25combined_alignment.fasta"
+> "$OUTPUT_FILE"
+find "$BASE_DIR" -type f -name "*_all.fasta" | while read -r fasta_file; do
+    echo "Processing $fasta_file"
+    awk '/^>/ {p = ($0 !~ /reference/)} p' "$fasta_file" >> "$OUTPUT_FILE"
+done
+
+# An earlier distance invocation on the same page (before final merge repair):
+snp-dists -j 12 ebg_25_alignment_without_reference.fasta > ebg_25_snp_matrix.tsv
+# Do not assume that this filename identifies the final Malawi/network matrix.

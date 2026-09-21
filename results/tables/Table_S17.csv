@@ -1,0 +1,13 @@
+population,panel_id,lineage,n_isolates,first_tip_position,last_tip_position,first_isolate,last_isolate,partition_basis
+CC25,CC25-01,5,33,1,33,44341_3_304,CAAXQV,Consecutive tip-order subset within recorded lineage
+CC25,CC25-02,5,33,34,66,CIV13UE4,44341_3_265,Consecutive tip-order subset within recorded lineage
+CC25,CC25-03,5,33,67,99,44341_4_286,ERR12067314,Consecutive tip-order subset within recorded lineage
+CC25,CC25-04,5,32,100,131,ERR12321281,ERR9924209,Consecutive tip-order subset within recorded lineage
+CC25,CC25-05,4,31,132,162,ERR10460483,ERR10460687,Consecutive tip-order subset within recorded lineage
+CC25,CC25-06,4,31,163,193,ERR12078573,ERR10880311,Consecutive tip-order subset within recorded lineage
+CC25,CC25-07,4,31,194,224,ERR10109274,SRR13833609,Consecutive tip-order subset within recorded lineage
+CC25,CC25-08,1,21,225,245,SRR13719289,ERR4400834,Consecutive tip-order subset within recorded lineage
+CC25,CC25-09,1,21,246,266,ERR4338896,ERR9680890,Consecutive tip-order subset within recorded lineage
+CC25,CC25-10,3,18,267,284,SRR14921286,SRR7457932,Consecutive tip-order subset within recorded lineage
+CC25,CC25-11,2,22,285,306,SRR2917137,SRR21535466,Consecutive tip-order subset within recorded lineage
+CC25,CC25-12,2,21,307,327,SRR26050334,SRR1967735,Consecutive tip-order subset within recorded lineage

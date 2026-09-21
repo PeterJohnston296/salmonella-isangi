@@ -1,0 +1,346 @@
+isolate_id,run_accession,XDR_genomic_profile,genomic_determinants
+44341_3_304,ERR16714663,1,blaOXA-1; blaOXA-10; cmlA5; floR; dfrA23; blaCTX-M-15; qnrB1; tet(A); sul1; sul2; aac(3)-IIe; aac(6')-Ib-cr5; aadA1; aph(3'')-Ib; aph(6)-Id; arr-2; qacEdelta1
+44341_3_305,ERR16714664,1,blaOXA-1; blaOXA-10; cmlA5; floR; dfrA23; blaCTX-M-15; qnrB1; tet(A); sul1; sul2; aac(3)-IIe; aac(6')-Ib-cr5; aadA1; aph(3'')-Ib; aph(6)-Id; arr-2; qacEdelta1
+44341_3_281,ERR16714662,1,blaOXA-1; blaOXA-10; cmlA5; floR; dfrA23; blaCTX-M-15; qnrB1; tet(A); sul1; sul2; aac(3)-IIe; aac(6')-Ib-cr5; aadA1; aph(3'')-Ib; aph(6)-Id; arr-2; qacEdelta1
+CIV13XE8,ERR16714702,1,blaOXA-1; blaOXA-10; cmlA5; floR; dfrA23; blaCTX-M-15; qnrB1; tet(A); sul1; sul2; aac(3)-IIe; aac(6')-Ib-cr5; aadA1; aph(3'')-Ib; aph(6)-Id; arr-2; qacEdelta1
+44341_3_128,ERR16714653,1,blaOXA-1; blaOXA-10; cmlA5; floR; dfrA23; blaCTX-M-15; qnrB1; tet(A); sul1; sul2; aac(3)-IIe; aac(6')-Ib-cr5; aadA1; aph(3'')-Ib; aph(6)-Id; arr-2; qacEdelta1
+44341_3_131,ERR16714654,1,blaOXA-1; blaOXA-10; cmlA5; floR; dfrA23; blaCTX-M-15; qnrB1; tet(A); sul1; sul2; aac(3)-IIe; aac(6')-Ib-cr5; aadA1; aph(3'')-Ib; aph(6)-Id; arr-2; qacEdelta1
+44341_3_136,ERR16714655,0,blaOXA-1; blaOXA-10; cmlA5; floR; dfrA23; qnrB1; tet(A); sul1; sul2; aac(6')-Ib-cr5; aadA1; aph(3'')-Ib; aph(6)-Id; arr-2; qacEdelta1
+CIV13PE7,ERR16714696,1,blaOXA-1; blaOXA-10; cmlA5; floR; dfrA23; blaCTX-M-15; qnrB1; tet(A); sul1; sul2; aac(3)-IIe; aac(6')-Ib-cr5; aadA1; aph(3'')-Ib; aph(6)-Id; arr-2; qacEdelta1
+CIT159B1,ERR16714687,1,blaOXA-1; blaOXA-10; cmlA5; floR; dfrA23; blaCTX-M-15; qnrB1; tet(A); sul1; sul2; aac(3)-IIe; aac(6')-Ib-cr5; aadA1; aph(3'')-Ib; aph(6)-Id; arr-2; qacEdelta1
+CIT15EB1,ERR16714688,1,blaOXA-1; blaOXA-10; cmlA5; floR; dfrA23; blaCTX-M-15; qnrB1; tet(A); sul1; sul2; aac(3)-IIe; aac(6')-Ib-cr5; aadA1; aph(3'')-Ib; aph(6)-Id; arr-2; qacEdelta1
+CIS153C1,ERR16714684,1,blaOXA-1; blaOXA-10; cmlA5; floR; dfrA23; blaCTX-M-15; qnrB1; tet(A); sul1; sul2; aac(3)-IIe; aac(6')-Ib-cr5; aadA1; aph(3'')-Ib; aph(6)-Id; arr-2; qacEdelta1
+CIV147E3,ERR16714720,1,blaOXA-1; blaOXA-10; cmlA5; floR; dfrA23; blaCTX-M-15; qnrB1; tet(A); sul1; sul2; aac(3)-IIe; aac(6')-Ib-cr5; aadA1; aph(3'')-Ib; aph(6)-Id; arr-2; qacEdelta1
+CIT15FH1,ERR16714690,1,blaOXA-1; blaOXA-10; cmlA5; floR; dfrA23; blaCTX-M-15; qnrB1; tet(A); sul1; sul2; aac(3)-IIe; aac(6')-Ib-cr5; aadA1; aph(3'')-Ib; aph(6)-Id; arr-2; qacEdelta1
+CIV143E2,ERR16714713,1,blaOXA-1; blaOXA-10; cmlA5; floR; dfrA23; blaCTX-M-15; qnrB1; tet(A); sul1; sul2; aac(3)-IIe; aac(6')-Ib-cr5; aadA1; aph(3'')-Ib; aph(6)-Id; arr-2; qacEdelta1
+CIU145B1,ERR16714694,1,blaOXA-1; blaOXA-10; cmlA5; floR; dfrA23; blaCTX-M-15; qnrB1; tet(A); sul1; sul2; aac(3)-IIe; aac(6')-Ib-cr5; aadA1; aph(3'')-Ib; aph(6)-Id; arr-2; qacEdelta1
+44341_3_310,ERR16714665,1,blaOXA-1; blaOXA-10; cmlA5; floR; dfrA23; blaCTX-M-15; qnrB1; tet(A); sul1; sul2; aac(3)-IIe; aac(6')-Ib-cr5; aadA1; aph(3'')-Ib; aph(6)-Id; arr-2; qacEdelta1
+CIV13XE2,ERR16714700,1,blaOXA-1; blaOXA-10; cmlA5; floR; dfrA23; blaCTX-M-15; qnrB1; tet(A); sul1; sul2; aac(3)-IIe; aac(6')-Ib-cr5; aadA1; aph(3'')-Ib; aph(6)-Id; arr-2; qacEdelta1
+44341_4_275,ERR16714667,1,blaOXA-1; blaOXA-10; cmlA5; floR; dfrA23; blaCTX-M-15; qnrB1; tet(A); sul1; sul2; aac(3)-IIe; aac(6')-Ib-cr5; aadA1; aph(3'')-Ib; aph(6)-Id; arr-2; qacEdelta1
+CIT15FB1,ERR16714689,1,blaOXA-1; blaOXA-10; cmlA5; floR; dfrA23; blaCTX-M-15; qnrB1; tet(A); sul1; sul2; aac(3)-IIe; aac(6')-Ib-cr5; aadA1; aph(3'')-Ib; aph(6)-Id; arr-2; qacEdelta1
+CIV13XU1,ERR16714703,1,blaOXA-1; blaOXA-10; cmlA5; floR; dfrA23; blaCTX-M-15; qnrB1; tet(A); sul1; sul2; aac(3)-IIe; aac(6')-Ib-cr5; aadA1; aph(3'')-Ib; aph(6)-Id; arr-2; qacEdelta1
+CIV142E6,ERR16714712,1,blaOXA-1; blaOXA-10; cmlA5; floR; dfrA23; blaCTX-M-15; qnrB1; tet(A); sul2; aac(3)-IIe; aac(6')-Ib-cr5; aadA1; aph(3'')-Ib; aph(6)-Id; arr-2; qacEdelta1
+CIV143U1,ERR16714716,1,blaOXA-1; blaOXA-10; cmlA5; floR; dfrA23; blaCTX-M-15; qnrB1; tet(A); sul1; sul2; aac(3)-IIe; aac(6')-Ib-cr5; aadA1; aph(3'')-Ib; aph(6)-Id; arr-2; qacEdelta1
+CIV143E9,ERR16714715,1,blaOXA-1; blaOXA-10; cmlA5; floR; dfrA23; blaCTX-M-15; qnrB1; tet(A); sul1; sul2; aac(3)-IIe; aac(6')-Ib-cr5; aadA1; aph(3'')-Ib; aph(6)-Id; arr-2; qacEdelta1
+CNS1F3,ERR16714723,1,blaOXA-1; blaOXA-10; cmlA5; floR; dfrA23; blaCTX-M-15; qnrB1; tet(A); sul1; sul2; aac(3)-IIe; aac(6')-Ib-cr5; aadA1; aph(3'')-Ib; aph(6)-Id; arr-2; qacEdelta1
+CAAYSI,ERR16714683,1,blaOXA-1; blaOXA-10; cmlA5; floR; dfrA23; blaCTX-M-15; qnrB1; tet(A); sul1; sul2; aac(3)-IIe; aac(6')-Ib-cr5; aadA1; aph(3'')-Ib; aph(6)-Id; arr-2; qacEdelta1
+CIT15GS1,ERR16714692,1,blaOXA-1; blaOXA-10; cmlA5; floR; dfrA23; blaCTX-M-15; qnrB1; tet(A); sul1; sul2; aac(3)-IIe; aac(6')-Ib-cr5; aadA1; aph(3'')-Ib; aph(6)-Id; arr-2; qacEdelta1
+CIV13RE2,ERR16714697,1,blaOXA-1; blaOXA-10; cmlA5; floR; dfrA23; blaCTX-M-15; qnrB1; tet(A); sul1; sul2; aac(3)-IIe; aac(6')-Ib-cr5; aadA1; aph(3'')-Ib; aph(6)-Id; arr-2; qacEdelta1
+CIV141E6,ERR16714711,1,blaOXA-1; blaOXA-10; cmlA5; floR; dfrA23; blaCTX-M-15; qnrB1; tet(A); sul1; sul2; aac(3)-IIe; aac(6')-Ib-cr5; aadA1; aph(3'')-Ib; aph(6)-Id; arr-2; qacEdelta1
+CIS15HB1,ERR16714685,1,blaOXA-1; blaOXA-10; cmlA5; floR; dfrA23; blaCTX-M-15; qnrB1; tet(A); sul1; sul2; aac(3)-IIe; aac(6')-Ib-cr5; aadA1; aph(3'')-Ib; aph(6)-Id; arr-2; qacEdelta1
+CIV140U1,ERR16714710,1,blaOXA-1; blaOXA-10; cmlA5; floR; dfrA23; blaCTX-M-15; qnrB1; tet(A); sul1; sul2; aac(3)-IIe; aac(6')-Ib-cr5; aadA1; aph(3'')-Ib; aph(6)-Id; arr-2; qacEdelta1
+CIV140E4,ERR16714707,1,blaOXA-1; blaOXA-10; cmlA5; floR; dfrA23; blaCTX-M-15; qnrB1; tet(A); sul2; aac(3)-IIe; aac(6')-Ib-cr5; aadA1; aph(3'')-Ib; aph(6)-Id; arr-2; qacEdelta1
+CIV140E7,ERR16714709,1,blaOXA-1; blaOXA-10; cmlA5; floR; dfrA23; blaCTX-M-15; qnrB1; tet(A); sul1; sul2; aac(3)-IIe; aac(6')-Ib-cr5; aadA1; aph(3'')-Ib; aph(6)-Id; arr-2; qacEdelta1
+CAAXQV,ERR16714680,1,blaOXA-1; blaOXA-10; cmlA5; floR; dfrA23; blaCTX-M-15; qnrB1; tet(A); sul1; sul2; aac(3)-IIe; aac(6')-Ib-cr5; aadA1; aph(3'')-Ib; aph(6)-Id; arr-2; qacEdelta1
+CIV13UE4,ERR16714698,1,blaOXA-1; blaOXA-10; cmlA5; floR; dfrA23; blaCTX-M-15; qnrB1; tet(A); sul1; sul2; aac(3)-IIe; aac(6')-Ib-cr5; aadA1; aph(3'')-Ib; aph(6)-Id; arr-2; qacEdelta1
+CIS15MR1,ERR16714686,1,blaOXA-1; blaOXA-10; cmlA5; floR; dfrA23; blaCTX-M-15; qnrB1; tet(A); sul1; sul2; aac(3)-IIe; aac(6')-Ib-cr5; aadA1; aph(3'')-Ib; aph(6)-Id; arr-2; qacEdelta1
+CIV13YE6,ERR16714704,1,blaOXA-1; blaOXA-10; cmlA5; floR; dfrA23; blaCTX-M-15; qnrB1; tet(A); sul1; sul2; aac(3)-IIe; aac(6')-Ib-cr5; aadA1; aph(3'')-Ib; aph(6)-Id; arr-2; qacEdelta1
+CIV143E4,ERR16714714,1,blaOXA-1; blaOXA-10; cmlA5; floR; dfrA23; blaCTX-M-15; qnrB1; tet(A); sul1; sul2; aac(3)-IIe; aac(6')-Ib-cr5; aadA1; aph(3'')-Ib; aph(6)-Id; arr-2; qacEdelta1
+CIV13XE5,ERR16714701,1,blaOXA-1; blaOXA-10; cmlA5; floR; dfrA23; blaCTX-M-15; qnrB1; tet(A); sul1; sul2; aac(3)-IIe; aac(6')-Ib-cr5; aadA1; aph(3'')-Ib; aph(6)-Id; arr-2; qacEdelta1
+CIT15GH1,ERR16714691,1,blaOXA-1; blaOXA-10; cmlA5; floR; dfrA23; blaCTX-M-15; qnrB1; tet(A); sul1; sul2; aac(3)-IIe; aac(6')-Ib-cr5; aadA1; aph(3'')-Ib; aph(6)-Id; arr-2; qacEdelta1
+CIV140E1,ERR16714706,1,blaOXA-1; blaOXA-10; cmlA5; floR; dfrA23; blaCTX-M-15; qnrB1; tet(A); sul1; sul2; aac(3)-IIe; aac(6')-Ib-cr5; aadA1; aph(3'')-Ib; aph(6)-Id; arr-2; qacEdelta1
+CIV140E6,ERR16714708,1,blaOXA-1; blaOXA-10; cmlA5; floR; dfrA23; blaCTX-M-15; qnrB1; tet(A); sul1; sul2; aac(3)-IIe; aac(6')-Ib-cr5; aadA1; aph(3'')-Ib; aph(6)-Id; arr-2; qacEdelta1
+CIU13XS1,ERR16714693,1,blaOXA-1; blaOXA-10; cmlA5; floR; dfrA23; blaCTX-M-15; qnrB1; tet(A); sul1; sul2; aac(3)-IIe; aac(6')-Ib-cr5; aadA1; aph(3'')-Ib; aph(6)-Id; arr-2; qacEdelta1
+CIV146E8,ERR16714719,1,blaOXA-1; blaOXA-10; cmlA5; floR; dfrA23; blaCTX-M-15; qnrB1; tet(A); sul2; aac(3)-IIe; aac(6')-Ib-cr5; aadA1; aph(3'')-Ib; aph(6)-Id; arr-2; qacEdelta1
+CIU149H1,ERR16714695,1,blaOXA-1; blaOXA-10; cmlA5; floR; dfrA23; blaCTX-M-15; qnrB1; tet(A); sul1; sul2; aac(3)-IIe; aac(6')-Ib-cr5; aadA1; aph(3'')-Ib; aph(6)-Id; arr-2; qacEdelta1
+CIV144E6,ERR16714717,1,blaOXA-1; blaOXA-10; cmlA5; floR; dfrA23; blaCTX-M-15; qnrB1; tet(A); sul1; sul2; aac(3)-IIe; aac(6')-Ib-cr5; aadA1; aph(3'')-Ib; aph(6)-Id; arr-2; qacEdelta1
+CIV13VE5,ERR16714699,1,blaOXA-1; blaOXA-10; cmlA5; floR; dfrA23; blaCTX-M-15; qnrB1; tet(A); sul1; sul2; aac(3)-IIe; aac(6')-Ib-cr5; aadA1; aph(3'')-Ib; aph(6)-Id; arr-2; qacEdelta1
+CIV13YE8,ERR16714705,1,blaOXA-1; blaOXA-10; cmlA5; floR; dfrA23; blaCTX-M-15; qnrB1; tet(A); sul1; sul2; aac(3)-IIe; aac(6')-Ib-cr5; aadA1; aph(3'')-Ib; aph(6)-Id; arr-2; qacEdelta1
+CIV144U1,ERR16714718,1,blaOXA-1; blaOXA-10; cmlA5; floR; dfrA23; blaCTX-M-15; qnrB1; tet(A); sul1; sul2; aac(3)-IIe; aac(6')-Ib-cr5; aadA1; aph(3'')-Ib; aph(6)-Id; arr-2; qacEdelta1
+CNSP0U,ERR16714732,1,blaOXA-10; cmlA5; floR; dfrA23; blaCTX-M-15; qnrB1; tet(A); sul1; sul2; aac(3)-IIe; aadA1; aph(3'')-Ib; aph(6)-Id; arr-2; qacEdelta1
+CNSKFP,ERR16714729,1,blaOXA-10; cmlA5; floR; dfrA23; blaCTX-M-15; qnrB1; sul1; aac(3)-IIe; aadA1; aph(3'')-Ib; aph(6)-Id; arr-2; qacEdelta1
+CNSLL4,ERR16714730,1,blaOXA-10; cmlA5; floR; dfrA23; blaCTX-M-15; qnrB1; tet(A); sul1; sul2; aac(3)-IIe; aadA1; aph(3'')-Ib; aph(6)-Id; arr-2; qacEdelta1
+ERR9941258,ERR9941258,1,blaOXA-1; blaOXA-10; cmlA5; floR; dfrA23; blaCTX-M-15; qnrB1; tet(A); sul1; sul2; aac(3)-IIe; aac(6')-Ib-cr5; aadA1; aph(3'')-Ib; aph(6)-Id; arr-2; qacEdelta1
+ERR9929342,ERR9929342,1,blaOXA-1; blaOXA-10; cmlA5; floR; dfrA23; blaCTX-M-15; qnrB1; tet(A); sul1; sul2; aac(3)-IIe; aac(6')-Ib-cr5; aadA1; aph(3'')-Ib; aph(6)-Id; arr-2; qacEdelta1
+ERR9966382,ERR9966382,1,blaOXA-1; blaOXA-10; cmlA5; floR; dfrA23; blaCTX-M-15; qnrB1; tet(A); sul1; sul2; aac(3)-IIe; aac(6')-Ib-cr5; aadA1; aph(3'')-Ib; aph(6)-Id; arr-2; qacEdelta1
+CLL3JA,ERR16714721,1,blaOXA-1; blaOXA-10; cmlA5; floR; dfrA23; blaCTX-M-15; qnrB1; sul1; sul2; aac(3)-IIe; aac(6')-Ib-cr5; aadA1; aph(3'')-Ib; aph(6)-Id; arr-2; qacEdelta1
+CNS7YP,ERR16714726,1,blaOXA-1; blaOXA-10; cmlA5; floR; dfrA23; blaCTX-M-15; qnrB1; tet(A); sul1; sul2; aac(3)-IIe; aac(6')-Ib-cr5; aadA1; aph(3'')-Ib; aph(6)-Id; arr-2; qacEdelta1
+BKRRIF,ERR16714670,1,blaOXA-1; blaOXA-10; cmlA5; floR; dfrA23; blaCTX-M-15; qnrB1; tet(A); sul1; sul2; aac(3)-IIe; aac(6')-Ib-cr5; aadA1; aph(3'')-Ib; aph(6)-Id; arr-2; qacEdelta1
+CNS6QU,ERR16714725,1,blaOXA-1; blaOXA-10; cmlA5; floR; dfrA23; blaCTX-M-15; qnrB1; tet(A); sul1; sul2; aac(3)-IIe; aac(6')-Ib-cr5; aadA1; aph(3'')-Ib; aph(6)-Id; arr-2; qacEdelta1
+44341_3_96,ERR16714666,0,blaOXA-1; blaOXA-10; cmlA5; floR; dfrA23; blaCTX-M-15; tet(A); sul1; sul2; aac(3)-IIe; aac(6')-Ib-cr5; aadA1; aph(3'')-Ib; aph(6)-Id; arr-2; qacEdelta1
+44341_3_21,ERR16714657,1,blaOXA-1; blaOXA-10; cmlA5; floR; dfrA23; blaCTX-M-15; qnrB1; tet(A); sul1; sul2; aac(3)-IIe; aac(6')-Ib-cr5; aadA1; aph(3'')-Ib; aph(6)-Id; arr-2; qacEdelta1
+BKRMVD,ERR16714669,1,blaOXA-1; blaOXA-10; cmlA5; floR; dfrA23; blaCTX-M-15; qnrB1; tet(A); sul1; sul2; aac(3)-IIe; aac(6')-Ib-cr5; aadA1; aph(3'')-Ib; aph(6)-Id; arr-2; qacEdelta1
+CAAYDF,ERR16714681,1,blaOXA-1; blaOXA-10; cmlA5; floR; dfrA23; blaCTX-M-15; qnrB1; tet(A); sul1; sul2; aac(3)-IIe; aac(6')-Ib-cr5; aadA1; aph(3'')-Ib; aph(6)-Id; arr-2; qacEdelta1
+CAAXBN,ERR16714679,1,blaOXA-1; blaOXA-10; cmlA5; floR; dfrA23; blaCTX-M-15; qnrB1; sul1; aac(3)-IIe; aac(6')-Ib-cr5; aadA1; aph(3'')-Ib; aph(6)-Id; arr-2; qacEdelta1
+44341_3_165,ERR16714656,1,blaOXA-1; blaOXA-10; cmlA5; floR; dfrA23; blaCTX-M-15; qnrB1; tet(A); sul1; sul2; aac(3)-IIe; aac(6')-Ib-cr5; aadA1; aph(3'')-Ib; aph(6)-Id; arr-2; qacEdelta1
+44341_3_262,ERR16714658,1,blaOXA-1; blaOXA-10; cmlA5; floR; dfrA23; blaCTX-M-15; qnrB1; tet(A); sul1; sul2; aac(3)-IIe; aac(6')-Ib-cr5; aadA1; aph(3'')-Ib; aph(6)-Id; arr-2; qacEdelta1
+44341_3_265,ERR16714659,1,blaOXA-1; blaOXA-10; cmlA5; floR; dfrA23; blaCTX-M-15; qnrB1; tet(A); sul1; sul2; aac(3)-IIe; aac(6')-Ib-cr5; aadA1; aph(3'')-Ib; aph(6)-Id; arr-2; qacEdelta1
+44341_4_286,ERR16714668,1,blaOXA-1; blaOXA-10; cmlA5; floR; dfrA23; blaCTX-M-15; qnrB1; tet(A); sul1; sul2; aac(3)-IIe; aac(6')-Ib-cr5; aadA1; aph(3'')-Ib; aph(6)-Id; arr-2; qacEdelta1
+44341_3_268,ERR16714660,1,blaOXA-1; blaOXA-10; cmlA5; floR; dfrA23; blaCTX-M-15; qnrB1; tet(A); sul1; sul2; aac(3)-IIe; aac(6')-Ib-cr5; aadA1; aph(3'')-Ib; aph(6)-Id; arr-2; qacEdelta1
+44341_3_280,ERR16714661,1,blaOXA-1; blaOXA-10; cmlA5; floR; dfrA23; blaCTX-M-15; qnrB1; tet(A); sul1; sul2; aac(3)-IIe; aac(6')-Ib-cr5; aadA1; aph(3'')-Ib; aph(6)-Id; arr-2; qacEdelta1
+CAAP2A,ERR16714672,1,blaOXA-1; blaOXA-10; cmlA5; floR; dfrA23; blaCTX-M-15; qnrB1; tet(A); sul1; sul2; aac(3)-IIe; aac(6')-Ib-cr5; aadA1; aph(3'')-Ib; aph(6)-Id; arr-2; qacEdelta1
+CNSFP4,ERR16714728,0,blaOXA-1; blaOXA-10; cmlA5; floR; dfrA23; blaCTX-M-15; tet(A); sul1; sul2; aac(6')-Ib-cr5; aadA1; aph(3'')-Ib; aph(6)-Id; arr-2; qacEdelta1
+CNSDXZ,ERR16714727,1,blaOXA-1; blaOXA-10; cmlA5; floR; dfrA23; blaCTX-M-15; qnrB1; tet(A); sul1; sul2; aac(3)-IIe; aac(6')-Ib-cr5; aadA1; aph(3'')-Ib; aph(6)-Id; arr-2; qacEdelta1
+CAAQXB,ERR16714675,1,blaOXA-1; blaOXA-10; cmlA5; dfrA23; blaCTX-M-15; qnrB1; tet(A); sul1; sul2; aac(3)-IIe; aac(6')-Ib-cr5; aadA1; aph(3'')-Ib; aph(6)-Id; arr-2; qacEdelta1
+CAAR9T,ERR16714676,1,blaOXA-1; blaOXA-10; cmlA5; dfrA23; blaCTX-M-15; qnrB1; tet(A); sul1; sul2; aac(3)-IIe; aac(6')-Ib-cr5; aadA1; aph(3'')-Ib; aph(6)-Id; arr-2; qacEdelta1
+CAAQUT,ERR16714674,1,blaOXA-1; blaOXA-10; cmlA5; dfrA23; blaCTX-M-15; qnrB1; tet(A); sul1; sul2; aac(3)-IIe; aac(6')-Ib-cr5; aadA1; aph(3'')-Ib; aph(6)-Id; arr-2; qacEdelta1
+CAARE3,ERR16714677,1,blaOXA-1; blaOXA-10; cmlA5; dfrA23; blaCTX-M-15; qnrB1; tet(A); sul1; sul2; aac(3)-IIe; aac(6')-Ib-cr5; aadA1; aph(3'')-Ib; aph(6)-Id; arr-2; qacEdelta1
+CLL6CH,ERR16714722,1,blaOXA-1; blaOXA-10; cmlA5; floR; dfrA23; blaCTX-M-15; qnrB1; tet(A); sul1; aac(3)-IIe; aac(6')-Ib-cr5; aadA1; aph(3'')-Ib; aph(6)-Id; arr-2; qacEdelta1
+ERR10438737,ERR10438737,1,blaOXA-10; cmlA5; floR; dfrA23; blaCTX-M-15; qnrB1; tet(A); sul1; sul2; aac(3)-IIe; aadA1; aph(3'')-Ib; aph(6)-Id; arr-2; qacEdelta1
+ERR10113269,ERR10113269,1,blaOXA-1; floR; dfrA14; blaCTX-M-15; qnrB1; mph(A); tet(A); sul2; aac(3)-IIe; aac(6')-Ib-cr5; aph(3'')-Ib; aph(6)-Id
+ERR6752971,ERR6752971,1,blaTEM-1; blaOXA-1; blaOXA-10; cmlA5; floR; dfrA23; blaCTX-M-15; qnrB1; mph(A); tet(A); sul1; sul2; aac(6')-Ib-cr5; aadA1; aph(3'')-Ib; aph(6)-Id; arr-2; qacEdelta1
+ERR5751227,ERR5751227,1,blaTEM-1; blaOXA-1; blaOXA-10; cmlA5; floR; dfrA23; blaCTX-M-15; qnrB1; mph(A); tet(A); sul1; sul2; aac(6')-Ib-cr5; aadA1; aph(3'')-Ib; aph(6)-Id; arr-2; qacEdelta1
+ERR9976609,ERR9976609,1,blaOXA-1; blaOXA-10; cmlA5; floR; dfrA14; dfrA23; blaCTX-M-15; qnrB1; mph(A); tet(A); sul1; sul2; aac(3)-IIe; aac(6')-Ib-cr5; aadA1; aph(3'')-Ib; aph(6)-Id; arr-2; qacEdelta1
+ERR11219800,ERR11219800,1,blaOXA-1; blaOXA-10; cmlA5; floR; dfrA14; dfrA23; blaCTX-M-15; qnrB1; mph(A); tet(A); sul1; sul2; aac(3)-IIe; aac(6')-Ib-cr5; aadA1; aph(3'')-Ib; aph(6)-Id; arr-2; qacEdelta1
+ERR12142619,ERR12142619,1,blaOXA-1; blaOXA-10; cmlA5; floR; dfrA14; dfrA23; blaCTX-M-15; qnrB1; mph(A); tet(A); sul1; sul2; aac(3)-IIe; aac(6')-Ib-cr5; aadA1; aph(3'')-Ib; aph(6)-Id; arr-2; qacEdelta1
+ERR11747325,ERR11747325,1,blaTEM-1; blaOXA-1; blaOXA-10; cmlA5; floR; dfrA14; dfrA23; blaCTX-M-15; qnrB1; mph(A); mph(E); msr(E); tet(A); sul1; sul2; aac(3)-IId; aac(6')-Ib-cr5; aadA1; aph(3'')-Ib; aph(6)-Id; armA; blaNDM-1; arr-2; ble
+ERR11502778,ERR11502778,1,blaTEM-1; blaOXA-1; blaOXA-10; cmlA5; floR; dfrA14; dfrA23; blaCTX-M-15; qnrB1; mph(A); mph(E); msr(E); tet(A); sul1; sul2; aac(3)-IId; aac(6')-Ib-cr5; aadA1; aph(3'')-Ib; aph(6)-Id; armA; blaNDM-1; arr-2; ble
+ERR7197834,ERR7197834,1,blaOXA-1; blaOXA-10; cmlA5; floR; dfrA14; dfrA23; blaCTX-M-15; qnrB1; mph(A); tet(A); sul1; sul2; aac(3)-IIe; aac(6')-Ib-cr5; aadA1; aph(3'')-Ib; aph(6)-Id; arr-2; qacEdelta1
+ERR9079758,ERR9079758,1,blaTEM-1; blaOXA-1; floR; dfrA14; blaCTX-M-15; qnrB1; mph(A); mph(E); msr(E); tet(A); sul1; sul2; aac(3)-IId; aac(6')-Ib-cr5; aph(3'')-Ib; aph(6)-Id; armA; blaNDM-1; qacE; ble
+ERR6806255,ERR6806255,1,blaOXA-1; blaOXA-10; cmlA5; floR; dfrA14; dfrA23; blaCTX-M-15; qnrB1; mph(A); tet(A); sul1; sul2; aac(3)-IIe; aac(6')-Ib-cr5; aadA1; aph(3'')-Ib; aph(6)-Id; blaOXA-48; arr-2; qacEdelta1
+ERR6805990,ERR6805990,0,blaOXA-1; blaOXA-10; cmlA5; floR; dfrA14; dfrA23; blaCTX-M-15; mph(A); tet(A); sul1; sul2; aac(3)-IIe; aac(6')-Ib-cr5; aadA1; aph(3'')-Ib; aph(6)-Id; arr-2; qacEdelta1
+ERR6806776,ERR6806776,1,blaOXA-1; blaOXA-10; cmlA5; floR; dfrA14; dfrA23; blaCTX-M-15; qnrB1; mph(A); tet(A); sul1; sul2; aac(3)-IIe; aac(6')-Ib-cr5; aadA1; aph(3'')-Ib; aph(6)-Id; arr-2; qacEdelta1
+ERR5750995,ERR5750995,1,blaOXA-1; blaOXA-10; cmlA5; floR; dfrA14; dfrA23; blaCTX-M-15; qnrB1; mph(A); tet(A); sul1; sul2; aac(3)-IIe; aac(6')-Ib-cr5; aadA1; aph(3'')-Ib; aph(6)-Id; arr-2; qacEdelta1
+ERR6806749,ERR6806749,1,blaOXA-1; blaOXA-10; cmlA5; floR; dfrA14; dfrA23; blaCTX-M-15; qnrB1; mph(A); tet(A); sul1; sul2; aac(3)-IIe; aac(6')-Ib-cr5; aadA1; aph(3'')-Ib; aph(6)-Id; arr-2; qacEdelta1
+ERR6805998,ERR6805998,1,blaOXA-1; blaOXA-10; cmlA5; floR; dfrA14; dfrA23; blaCTX-M-15; qnrB1; mph(A); tet(A); sul1; sul2; aac(3)-IIe; aac(6')-Ib-cr5; aadA1; aph(3'')-Ib; aph(6)-Id; arr-2; qacEdelta1
+ERR6806833,ERR6806833,1,blaOXA-1; blaOXA-10; cmlA5; floR; dfrA14; dfrA23; blaCTX-M-15; qnrB1; mph(A); tet(A); sul1; sul2; aac(3)-IIe; aac(6')-Ib-cr5; aadA1; aph(3'')-Ib; aph(6)-Id; arr-2; qacEdelta1
+ERR12080226,ERR12080226,0,floR; dfrA14; tet(A); sul2; aph(3'')-Ib; aph(6)-Id
+ERR12321283,ERR12321283,1,blaOXA-1; blaOXA-10; cmlA5; floR; dfrA14; dfrA23; blaCTX-M-15; qnrB1; mph(A); tet(A); sul1; sul2; aac(3)-IIe; aac(6')-Ib-cr5; aadA1; aph(3'')-Ib; aph(6)-Id; arr-2; qacEdelta1
+ERR12321282,ERR12321282,1,blaOXA-1; blaOXA-10; cmlA5; floR; dfrA14; dfrA23; blaCTX-M-15; qnrB1; mph(A); tet(A); sul1; sul2; aac(3)-IIe; aac(6')-Ib-cr5; aadA1; aph(3'')-Ib; aph(6)-Id; arr-2; qacEdelta1
+ERR12067314,ERR12067314,1,blaOXA-1; blaOXA-10; cmlA5; floR; dfrA14; dfrA23; blaCTX-M-15; qnrB1; mph(A); tet(A); sul1; sul2; aac(3)-IIe; aac(6')-Ib-cr5; aadA1; aph(3'')-Ib; aph(6)-Id; arr-2; qacEdelta1
+ERR12321281,ERR12321281,1,blaTEM-1; blaOXA-1; blaOXA-10; cmlA5; floR; dfrA14; dfrA23; blaCTX-M-15; qnrB1; mph(A); mph(E); msr(E); tet(A); sul1; sul2; aac(3)-IId; aac(3)-IIe; aac(6')-Ib-cr5; aadA1; aph(3'')-Ib; aph(6)-Id; blaNDM-1; arr-2; ble
+ERR12142634,ERR12142634,1,blaTEM-1; blaOXA-1; blaOXA-10; cmlA5; floR; dfrA14; dfrA23; blaCTX-M-15; qnrB1; mph(A); mph(E); msr(E); tet(A); sul1; sul2; aac(6')-Ib-cr5; aadA1; aph(3'')-Ib; aph(6)-Id; armA; blaNDM-1; arr-2; ble
+ERR6753111,ERR6753111,1,blaOXA-1; blaOXA-10; cmlA5; floR; dfrA14; dfrA23; blaCTX-M-15; qnrB1; mph(A); tet(A); sul1; sul2; aac(3)-IIe; aac(6')-Ib-cr5; aadA1; aph(3'')-Ib; aph(6)-Id; arr-2; qacEdelta1
+ERR6806796,ERR6806796,1,blaOXA-1; blaOXA-10; cmlA5; floR; dfrA14; dfrA23; blaCTX-M-15; qnrB1; tet(A); sul1; sul2; aac(3)-IIe; aac(6')-Ib-cr5; aadA1; aph(3'')-Ib; aph(6)-Id; arr-2; qacEdelta1
+ERR6806789,ERR6806789,1,blaOXA-1; blaOXA-10; cmlA5; floR; dfrA14; dfrA23; blaCTX-M-15; qnrB1; mph(A); tet(A); sul1; sul2; aac(3)-IIe; aac(6')-Ib-cr5; aadA1; aph(3'')-Ib; aph(6)-Id; arr-2; qacEdelta1
+ERR9971918,ERR9971918,1,blaOXA-1; blaOXA-10; cmlA5; floR; dfrA14; dfrA23; blaCTX-M-15; qnrB1; mph(A); tet(A); sul1; sul2; aac(3)-IIe; aac(6')-Ib-cr5; aadA1; aph(3'')-Ib; aph(6)-Id; arr-2; qacEdelta1
+ERR7197741,ERR7197741,1,blaOXA-1; floR; dfrA14; blaCTX-M-15; qnrB1; mph(A); tet(A); sul2; aac(3)-IIe; aac(6')-Ib-cr5; aph(3'')-Ib; aph(6)-Id
+ERR5751808,ERR5751808,1,blaOXA-1; floR; dfrA14; blaCTX-M-15; qnrB1; mph(A); tet(A); sul2; aac(3)-IIe; aac(6')-Ib-cr5; aph(3'')-Ib; aph(6)-Id
+ERR12321280,ERR12321280,1,blaOXA-1; blaOXA-10; cmlA5; floR; dfrA14; blaCTX-M-15; qnrB1; mph(A); tet(A); sul1; sul2; aac(3)-IIe; aac(6')-Ib-cr5; aadA1; aph(3'')-Ib; aph(6)-Id; arr-2; qacEdelta1
+ERR9692774,ERR9692774,1,blaOXA-1; blaOXA-10; cmlA5; floR; dfrA14; blaCTX-M-15; qnrB1; mph(A); tet(A); sul1; sul2; aac(3)-IIe; aac(6')-Ib-cr5; aadA1; aph(3'')-Ib; aph(6)-Id; arr-2; qacEdelta1
+ERR6752863,ERR6752863,1,blaOXA-1; floR; dfrA14; blaCTX-M-15; qnrB1; mph(A); tet(A); sul2; aac(3)-IIe; aac(6')-Ib-cr5; aph(3'')-Ib; aph(6)-Id
+SRR9273829,SRR9273829,0,blaOXA-10; cmlA5; floR; dfrA23; blaCTX-M-15; tet(A); sul1; sul2; aac(3)-IIe; aadA1; aph(3'')-Ib; aph(6)-Id; qacEdelta1
+ERR9079830,ERR9079830,1,blaOXA-1; blaOXA-10; cmlA5; floR; dfrA23; blaCTX-M-15; qnrB1; tet(A); sul1; sul2; aac(3)-II; aac(6')-Ib-cr5; aadA1; aph(3'')-Ib; aph(6)-Id; arr-2; qacEdelta1
+ERR10880116,ERR10880116,1,blaOXA-1; blaOXA-10; cmlA5; dfrA23; blaCTX-M-15; qnrB1; tet(A); sul1; sul2; aac(3)-IIe; aac(6')-Ib-cr5; aadA1; aph(3'')-Ib; aph(6)-Id; arr-2; qacEdelta1
+ERR5751304,ERR5751304,1,blaOXA-1; floR; dfrA14; blaCTX-M-15; qnrB1; mph(A); tet(A); sul2; aac(3)-IIe; aac(6')-Ib-cr5; aph(3'')-Ib; aph(6)-Id
+ERR6806714,ERR6806714,1,blaTEM-1; blaOXA-10; cmlA5; floR; dfrA23; blaCTX-M-15; qnrB1; tet(A); sul1; sul2; aac(3)-IIe; aadA1; aph(3'')-Ib; aph(6)-Id; arr-2; qacEdelta1
+ERR5751296,ERR5751296,1,blaOXA-1; blaOXA-10; cmlA5; floR; dfrA14; dfrA23; blaCTX-M-15; qnrB1; mph(A); tet(A); sul1; sul2; aac(3)-IIe; aac(6')-Ib-cr5; aadA1; aph(3'')-Ib; aph(6)-Id; arr-2; qacEdelta1
+ERR4451427,ERR4451427,1,blaOXA-1; blaOXA-10; cmlA5; floR; dfrA14; dfrA23; blaCTX-M-15; qnrB1; mph(A); tet(A); sul1; sul2; aac(3)-IIe; aac(6')-Ib-cr5; aadA1; aph(3'')-Ib; aph(6)-Id; arr-2; qacEdelta1
+ERR6806125,ERR6806125,1,blaOXA-1; blaOXA-10; cmlA5; floR; dfrA14; dfrA23; blaCTX-M-15; qnrB1; mph(A); tet(A); sul1; sul2; aac(3)-IIe; aac(6')-Ib-cr5; aadA1; aph(3'')-Ib; aph(6)-Id; arr-2; qacEdelta1
+ERR6806317,ERR6806317,0,blaTEM-1; catA1; floR; dfrA14; blaCTX-M-15; mph(A); tet(A); sul2; aadA1; aph(3'')-Ib; aph(6)-Id
+ERR12067371,ERR12067371,1,blaTEM-1; blaOXA-1; blaOXA-10; catA1; cmlA5; floR; dfrA14; dfrA23; blaCTX-M-15; qnrB1; mph(A); tet(A); sul1; sul2; aac(3)-IIe; aac(6')-Ib-cr5; aadA1; aph(3'')-Ib; aph(6)-Id; arr-2; qacEdelta1
+ERR6806075,ERR6806075,0,blaTEM-1; blaCTX-M-15; gyrB_S464F; tet(A); sul2; aac(3)-IIe; aph(3'')-Ib; aph(6)-Id
+ERR10176870,ERR10176870,0,blaTEM-1; blaOXA-1; dfrA14; blaCTX-M-15; qnrB1; mph(A); tet(A); sul2; aac(3)-IIe; aac(6')-Ib-cr5; aph(3'')-Ib; aph(6)-Id
+ERR10460856,ERR10460856,0,blaTEM-1; blaOXA-1; dfrA14; blaCTX-M-15; qnrB1; mph(A); tet(A); sul2; aac(3)-IIe; aac(6')-Ib-cr5; aph(3'')-Ib; aph(6)-Id
+ERR10460902,ERR10460902,0,blaTEM-1; blaOXA-1; dfrA14; blaCTX-M-15; qnrB1; mph(A); tet(A); sul2; aac(3)-IIe; aac(6')-Ib-cr5; aph(3'')-Ib; aph(6)-Id
+ERR6806726,ERR6806726,0,blaTEM-1; blaOXA-1; dfrA14; blaCTX-M-15; qnrB1; sul2; sul3; aac(3)-IIe; aac(6')-Ib-cr5; aph(6)-Id
+ERR12078572,ERR12078572,1,blaOXA-1; blaOXA-10; cmlA5; dfrA14; dfrA23; blaCTX-M-15; qnrB1; mph(A); tet(A); sul1; sul2; aac(3)-IIe; aac(6')-Ib-cr5; aadA1; aph(3'')-Ib; aph(6)-Id; arr-2; qacEdelta1
+ERR11747320,ERR11747320,1,blaTEM-1; blaOXA-1; blaOXA-10; cmlA5; dfrA14; dfrA23; blaCTX-M-15; qnrB1; mph(A); tet(A); sul1; sul2; aac(3)-IIe; aac(6')-Ib-cr5; aadA1; aph(3'')-Ib; aph(6)-Id; arr-2; qacEdelta1
+ERR12495482,ERR12495482,1,blaTEM-1; blaOXA-1; blaOXA-10; cmlA5; dfrA14; dfrA23; blaCTX-M-15; qnrB1; mph(A); tet(A); sul1; sul2; aac(3)-IIe; aac(6')-Ib-cr5; aadA1; aph(3'')-Ib; aph(6)-Id; arr-2; qacEdelta1
+ERR5751726,ERR5751726,0,blaTEM-1; blaOXA-1; dfrA14; blaCTX-M-15; tet(A); sul2; aac(3)-IIe; aac(6')-Ib-cr5; aph(3'')-Ib; aph(6)-Id
+ERR6806512,ERR6806512,1,blaTEM-1; blaOXA-1; blaOXA-10; cmlA5; dfrA14; dfrA23; blaCTX-M-15; qnrB1; tet(A); sul1; sul2; aac(3)-IIe; aac(6')-Ib-cr5; aadA1; aph(3'')-Ib; aph(6)-Id; arr-2; qacEdelta1
+ERR9924209,ERR9924209,1,blaTEM-1; blaOXA-1; blaOXA-10; cmlA5; dfrA14; dfrA23; blaCTX-M-15; qnrB1; mph(A); tet(A); sul1; sul2; aac(3)-IIe; aac(6')-Ib-cr5; aadA1; aph(3'')-Ib; aph(6)-Id; arr-3; qacEdelta1
+ERR10460483,ERR10460483,0,blaSCO-1; blaTEM-1; blaOXA-1; dfrA12; blaCTX-M-15; mph(A); sul1; sul2; aac(3)-IId; aac(6')-Ib-cr5; aadA2; aph(3'')-Ib; aph(6)-Id; qacEdelta1
+ERR9785511,ERR9785511,0,blaSCO-1; blaTEM-1; blaOXA-1; dfrA12; blaCTX-M-15; mph(A); sul1; sul2; aac(3)-IId; aac(6')-Ib-cr5; aadA2; aph(3'')-Ib; aph(6)-Id; qacEdelta1
+ERR10087012,ERR10087012,1,blaSCO-1; blaTEM-1; blaOXA-1; blaOXA-10; cmlA5; dfrA12; dfrA23; blaCTX-M-15; qnrB1; mph(A); sul1; sul2; aac(3)-IId; aac(6')-Ib-cr5; aadA1; aadA2; aph(3'')-Ib; aph(6)-Id; arr-2; qacEdelta1
+ERR9079768,ERR9079768,0,blaSCO-1; blaTEM-1; blaOXA-1; blaOXA-10; cmlA5; dfrA12; dfrA23; blaCTX-M-15; mph(A); sul1; sul2; aac(3)-IId; aac(6')-Ib-cr5; aadA1; aadA2; aph(3'')-Ib; aph(6)-Id; arr-2; qacEdelta1
+ERR9822149,ERR9822149,1,blaSCO-1; blaTEM-1; blaOXA-1; blaOXA-10; cmlA5; dfrA12; dfrA23; blaCTX-M-15; qnrB1; mph(A); sul1; sul2; aac(3)-IId; aac(6')-Ib-cr5; aadA1; aadA2; aph(3'')-Ib; aph(6)-Id; arr-2; qacEdelta1
+ERR9822145,ERR9822145,1,blaSCO-1; blaTEM-1; blaOXA-1; blaOXA-10; cmlA5; dfrA23; blaCTX-M-15; qnrB1; sul1; sul2; aac(6')-Ib-cr5; aadA1; aph(3'')-Ib; aph(6)-Id; arr-2; qacEdelta1
+ERR9822146,ERR9822146,1,blaSCO-1; blaTEM-1; blaOXA-1; blaOXA-10; cmlA5; dfrA12; dfrA23; blaCTX-M-15; qnrB1; mph(A); sul1; sul2; aac(3)-IId; aac(6')-Ib-cr5; aadA1; aadA2; aph(3'')-Ib; aph(6)-Id; arr-2; qacEdelta1
+ERR9785509,ERR9785509,1,blaSCO-1; blaTEM-1; blaOXA-1; blaOXA-10; cmlA5; dfrA12; dfrA23; blaCTX-M-15; qnrB1; mph(A); sul1; sul2; aac(3)-IId; aac(6')-Ib-cr5; aadA1; aadA2; aph(3'')-Ib; aph(6)-Id; arr-2; qacEdelta1
+ERR10176872,ERR10176872,1,blaSCO-1; blaTEM-1; blaOXA-1; blaOXA-10; cmlA5; dfrA12; dfrA23; blaCTX-M-15; qnrB1; mph(A); sul1; sul2; aac(3)-IId; aac(6')-Ib-cr5; aadA1; aadA2; aph(3'')-Ib; aph(6)-Id; arr-2; qacEdelta1
+ERR9966389,ERR9966389,1,blaSCO-1; blaTEM-1; blaOXA-1; blaOXA-10; cmlA5; dfrA12; dfrA23; blaCTX-M-15; qnrB1; mph(A); sul1; sul2; aac(3)-IId; aac(6')-Ib-cr5; aadA1; aadA2; aph(3'')-Ib; aph(6)-Id; arr-2; qacEdelta1
+ERR10460765,ERR10460765,1,blaSCO-1; blaTEM-1; blaOXA-1; blaOXA-10; cmlA5; dfrA12; dfrA23; blaCTX-M-15; qnrB1; mph(A); sul1; sul2; aac(3)-IId; aac(6')-Ib-cr5; aadA1; aadA2; aph(3'')-Ib; aph(6)-Id; arr-2; qacEdelta1
+ERR10109275,ERR10109275,1,blaSCO-1; blaTEM-1; blaOXA-1; blaOXA-10; cmlA5; dfrA12; dfrA23; blaCTX-M-15; qnrB1; mph(A); sul1; sul2; aac(3)-IId; aac(6')-Ib-cr5; aph(3'')-Ib; aph(6)-Id; arr-2; qacEdelta1
+ERR11807704,ERR11807704,1,blaSCO-1; blaTEM-1; blaOXA-10; cmlA5; dfrA12; dfrA23; blaCTX-M-15; qnrB1; mph(A); sul1; sul2; aac(3)-IId; aadA1; aadA2; aph(3'')-Ib; aph(6)-Id; arr-2; qacEdelta1
+ERR10109276,ERR10109276,1,blaSCO-1; blaTEM-1; blaOXA-10; cmlA5; dfrA12; dfrA23; blaCTX-M-15; qnrB1; mph(A); sul1; sul2; aac(3)-IId; aadA1; aadA2; aph(3'')-Ib; aph(6)-Id; arr-2; qacEdelta1
+ERR9785510,ERR9785510,1,blaSCO-1; blaTEM-1; blaOXA-1; blaOXA-10; cmlA5; dfrA12; dfrA23; blaCTX-M-15; qnrB1; mph(A); sul1; sul2; aac(3)-IId; aac(6')-Ib-cr5; aadA1; aadA2; aph(3'')-Ib; aph(6)-Id; arr-2; qacEdelta1
+ERR9820422,ERR9820422,1,blaSCO-1; blaTEM-1; blaOXA-1; blaOXA-10; cmlA5; dfrA12; dfrA23; blaCTX-M-15; qnrB1; mph(A); sul1; sul2; aac(3)-IId; aac(6')-Ib-cr5; aadA1; aadA2; aph(3'')-Ib; aph(6)-Id; arr-2; qacEdelta1
+ERR10880181,ERR10880181,1,blaSCO-1; blaTEM-1; blaOXA-1; blaOXA-10; cmlA5; dfrA12; dfrA23; blaCTX-M-15; qnrB1; mph(A); sul1; sul2; aac(3)-IId; aac(6')-Ib-cr5; aadA1; aadA2; aph(3'')-Ib; aph(6)-Id; arr-2; qacEdelta1
+ERR10088101,ERR10088101,1,blaSCO-1; blaTEM-1; blaOXA-1; blaOXA-10; cmlA5; dfrA12; dfrA23; blaCTX-M-15; qnrB1; mph(A); sul1; sul2; aac(3)-IId; aac(6')-Ib-cr5; aadA1; aadA2; aph(3'')-Ib; aph(6)-Id; arr-2; qacEdelta1
+ERR12312688,ERR12312688,1,blaSCO-1; blaTEM-1; blaOXA-1; blaOXA-10; cmlA5; dfrA12; dfrA23; blaCTX-M-15; qnrB1; mph(A); sul1; sul2; aac(3)-IId; aac(6')-Ib-cr5; aadA1; aadA2; aph(3'')-Ib; aph(6)-Id; arr-2; qacEdelta1
+ERR11201827,ERR11201827,1,blaSCO-1; blaTEM-1; blaOXA-1; blaOXA-10; cmlA5; dfrA12; dfrA23; blaCTX-M-15; qnrB1; mph(A); sul1; sul2; aac(3)-IId; aac(6')-Ib-cr5; aadA1; aadA2; aph(3'')-Ib; aph(6)-Id; arr-2; qacEdelta1
+ERR12312689,ERR12312689,1,blaSCO-1; blaTEM-1; blaOXA-1; blaOXA-10; cmlA5; dfrA12; dfrA23; blaCTX-M-15; qnrB1; mph(A); sul1; sul2; aac(3)-IId; aac(6')-Ib-cr5; aadA1; aadA2; aph(3'')-Ib; aph(6)-Id; arr-2; qacEdelta1
+ERR12495485,ERR12495485,1,blaSCO-1; blaTEM-1; blaOXA-1; blaOXA-10; cmlA5; dfrA12; dfrA23; blaCTX-M-15; qnrB1; mph(A); sul1; sul2; aac(3)-IId; aac(6')-Ib-cr5; aadA1; aadA2; aph(3'')-Ib; aph(6)-Id; arr-2; qacEdelta1
+ERR12312692,ERR12312692,1,blaSCO-1; blaTEM-1; blaOXA-1; blaOXA-10; cmlA5; dfrA12; dfrA23; blaCTX-M-15; qnrB1; mph(A); sul1; sul2; aac(3)-IId; aac(6')-Ib-cr5; aadA1; aadA2; aph(3'')-Ib; aph(6)-Id; arr-2; qacEdelta1
+ERR10123168,ERR10123168,1,blaSCO-1; blaTEM-1; blaOXA-1; blaOXA-10; cmlA5; dfrA12; dfrA23; blaCTX-M-15; qnrB1; mph(A); sul1; sul2; aac(3)-IId; aac(6')-Ib-cr5; aadA1; aadA2; aph(3'')-Ib; aph(6)-Id; arr-2; qacEdelta1
+ERR10123167,ERR10123167,1,blaSCO-1; blaTEM-1; blaOXA-1; blaOXA-10; cmlA5; dfrA12; dfrA23; blaCTX-M-15; qnrB1; mph(A); sul1; sul2; aac(3)-IId; aac(6')-Ib-cr5; aadA1; aadA2; aph(3'')-Ib; aph(6)-Id; arr-2; qacEdelta1
+ERR9966387,ERR9966387,1,blaSCO-1; blaTEM-1; blaOXA-1; blaOXA-10; cmlA5; dfrA12; dfrA23; blaCTX-M-15; qnrB1; mph(A); sul1; sul2; aac(3)-IId; aac(6')-Ib-cr5; aadA1; aadA2; aph(3'')-Ib; aph(6)-Id; arr-2; qacEdelta1
+ERR10949310,ERR10949310,1,blaSCO-1; blaTEM-1; blaOXA-1; blaOXA-10; cmlA5; dfrA12; dfrA23; blaCTX-M-15; qnrB1; mph(A); sul1; sul2; aac(3)-IId; aac(6')-Ib-cr5; aadA1; aadA2; aph(3'')-Ib; aph(6)-Id; arr-2; qacEdelta1
+ERR10460875,ERR10460875,1,blaSCO-1; blaTEM-1; blaOXA-1; blaOXA-10; cmlA5; dfrA12; dfrA23; blaCTX-M-15; qnrB1; mph(A); sul1; sul2; aac(3)-IId; aac(6')-Ib-cr5; aadA1; aadA2; aph(3'')-Ib; aph(6)-Id; arr-2; qacEdelta1
+ERR9966390,ERR9966390,1,blaSCO-1; blaTEM-1; blaOXA-1; blaOXA-10; cmlA5; dfrA12; dfrA23; blaCTX-M-15; qnrB1; mph(A); sul1; sul2; aac(3)-IId; aac(6')-Ib-cr5; aadA1; aadA2; aph(3'')-Ib; aph(6)-Id; arr-2; qacEdelta1
+ERR10176866,ERR10176866,1,blaSCO-1; blaTEM-1; blaOXA-1; blaOXA-10; cmlA5; dfrA12; dfrA23; blaCTX-M-15; qnrB1; mph(A); sul1; sul2; aac(3)-IId; aac(6')-Ib-cr5; aadA1; aadA2; aph(3'')-Ib; aph(6)-Id; arr-2; qacEdelta1
+ERR10460687,ERR10460687,1,blaSCO-1; blaTEM-1; blaOXA-1; blaOXA-10; cmlA5; dfrA12; dfrA23; blaCTX-M-15; qnrB1; mph(A); sul1; sul2; aac(3)-IId; aac(6')-Ib-cr5; aadA1; aadA2; aph(3'')-Ib; aph(6)-Id; arr-2; qacEdelta1
+ERR12078573,ERR12078573,1,blaSCO-1; blaTEM-1; blaOXA-1; blaOXA-10; cmlA5; dfrA12; dfrA23; blaCTX-M-15; qnrB1; mph(A); sul1; sul2; aac(3)-IId; aac(6')-Ib-cr5; aadA1; aadA2; aph(3'')-Ib; aph(6)-Id; arr-2; qacEdelta1
+ERR9785512,ERR9785512,1,blaSCO-1; blaTEM-1; blaOXA-1; blaOXA-10; cmlA5; dfrA12; dfrA23; blaCTX-M-15; qnrB1; mph(A); sul1; sul2; aac(3)-IId; aac(6')-Ib-cr5; aadA1; aadA2; aph(3'')-Ib; aph(6)-Id; arr-2; qacEdelta1
+ERR12165616,ERR12165616,1,blaSCO-1; blaTEM-1; blaOXA-1; blaOXA-10; cmlA5; dfrA12; dfrA23; blaCTX-M-15; qnrB1; mph(A); sul1; sul2; aac(3)-IId; aac(6')-Ib-cr5; aadA1; aadA2; aph(3'')-Ib; aph(6)-Id; arr-2; qacEdelta1
+ERR10460887,ERR10460887,0,blaSCO-1; blaTEM-1; blaOXA-1; blaOXA-10; cmlA5; dfrA23; blaCTX-M-15; sul1; sul2; aac(6')-Ib-cr5; aadA1; aph(3'')-Ib; aph(6)-Id; arr-2; qacEdelta1
+ERR10880335,ERR10880335,0,blaSCO-1; blaTEM-1; blaOXA-1; blaOXA-10; cmlA5; dfrA23; blaCTX-M-15; sul1; sul2; aac(6')-Ib-cr5; aadA1; aph(3'')-Ib; aph(6)-Id; arr-2; qacEdelta1
+ERR10880156,ERR10880156,0,blaSCO-1; blaTEM-1; blaOXA-1; blaOXA-10; cmlA5; dfrA23; blaCTX-M-15; sul1; sul2; aac(6')-Ib-cr5; aadA1; aph(3'')-Ib; aph(6)-Id; arr-2; qacEdelta1
+ERR10880377,ERR10880377,0,blaSCO-1; blaTEM-1; blaOXA-1; blaOXA-10; cmlA5; dfrA23; blaCTX-M-15; sul1; sul2; aac(6')-Ib-cr5; aadA1; aph(3'')-Ib; aph(6)-Id; arr-2; qacEdelta1
+ERR10088105,ERR10088105,1,blaSCO-1; blaTEM-1; blaOXA-1; blaOXA-10; cmlA5; dfrA12; dfrA23; blaCTX-M-15; qnrB1; mph(A); sul1; sul2; aac(3)-IId; aac(6')-Ib-cr5; aadA1; aadA2; aph(3'')-Ib; aph(6)-Id; arr-2; qacEdelta1
+ERR12321284,ERR12321284,1,blaSCO-1; blaTEM-1; blaOXA-1; blaOXA-10; cmlA5; dfrA23; blaCTX-M-15; qnrB1; sul1; sul2; aac(6')-Ib-cr5; aadA1; aph(3'')-Ib; aph(6)-Id; arr-2; qacEdelta1
+ERR9966388,ERR9966388,1,blaSCO-1; blaTEM-1; blaOXA-1; blaOXA-10; cmlA5; dfrA12; dfrA23; blaCTX-M-15; qnrB1; mph(A); sul1; sul2; aac(3)-IId; aac(6')-Ib-cr5; aadA1; aadA2; aph(3'')-Ib; aph(6)-Id; arr-2; qacEdelta1
+ERR10026000,ERR10026000,1,blaSCO-1; blaTEM-1; blaOXA-1; blaOXA-10; cmlA5; dfrA12; dfrA23; blaCTX-M-15; qnrB1; mph(A); sul1; sul2; aac(3)-IId; aac(6')-Ib-cr5; aadA1; aadA2; aph(3'')-Ib; aph(6)-Id; arr-2; qacEdelta1
+ERR9822144,ERR9822144,1,blaSCO-1; blaTEM-1; blaOXA-1; blaOXA-10; cmlA5; dfrA12; dfrA23; blaCTX-M-15; qnrB1; mph(A); sul1; sul2; aac(3)-IId; aac(6')-Ib-cr5; aadA1; aadA2; aph(3'')-Ib; aph(6)-Id; arr-2; qacEdelta1
+ERR10088104,ERR10088104,1,blaSCO-1; blaTEM-1; blaOXA-1; blaOXA-10; cmlA5; dfrA12; dfrA23; blaCTX-M-15; qnrB1; mph(A); sul1; sul2; aac(3)-IId; aac(6')-Ib-cr5; aadA1; aadA2; aph(3'')-Ib; aph(6)-Id; arr-2; qacEdelta1
+ERR10088102,ERR10088102,1,blaSCO-1; blaTEM-1; blaOXA-1; blaOXA-10; cmlA5; dfrA12; dfrA23; blaCTX-M-15; qnrB1; mph(A); sul1; sul2; aac(3)-IId; aac(6')-Ib-cr5; aadA1; aadA2; aph(3'')-Ib; aph(6)-Id; arr-2; qacEdelta1
+ERR9822151,ERR9822151,1,blaSCO-1; blaTEM-1; blaOXA-1; blaOXA-10; cmlA5; dfrA12; dfrA23; blaCTX-M-15; qnrB1; mph(A); sul1; sul2; aac(3)-IId; aac(6')-Ib-cr5; aadA1; aadA2; aph(3'')-Ib; aph(6)-Id; arr-2; qacEdelta1
+ERR10109255,ERR10109255,1,blaSCO-1; blaOXA-1; blaOXA-10; cmlA5; dfrA12; dfrA23; blaCTX-M-15; qnrB1; mph(A); sul1; sul2; aac(3)-IId; aac(6')-Ib-cr5; aadA1; aadA2; aph(3'')-Ib; aph(6)-Id; arr-2; qacEdelta1
+ERR11810274,ERR11810274,1,blaSCO-1; blaTEM-1; blaOXA-1; blaOXA-10; cmlA5; dfrA12; dfrA23; blaCTX-M-15; qnrB1; mph(A); sul1; sul2; aac(3)-IId; aac(6')-Ib-cr5; aadA1; aadA2; aph(3'')-Ib; aph(6)-Id; arr-2; qacEdelta1
+ERR9966386,ERR9966386,1,blaSCO-1; blaTEM-1; blaOXA-1; blaOXA-10; cmlA5; dfrA12; dfrA23; blaCTX-M-15; qnrB1; mph(A); sul1; sul2; aac(3)-IId; aac(6')-Ib-cr5; aadA1; aadA2; aph(3'')-Ib; aph(6)-Id; arr-2; qacEdelta1
+ERR12259395,ERR12259395,1,blaSCO-1; blaTEM-1; blaOXA-1; blaOXA-10; cmlA5; dfrA12; dfrA23; blaCTX-M-15; qnrB1; mph(A); sul1; sul2; aac(3)-IId; aac(6')-Ib-cr5; aadA1; aadA2; aph(3'')-Ib; aph(6)-Id; arr-2; qacEdelta1
+ERR12091513,ERR12091513,1,blaSCO-1; blaTEM-1; blaOXA-1; blaOXA-10; cmlA5; dfrA12; dfrA23; blaCTX-M-15; qnrB1; mph(A); sul1; sul2; aac(3)-IId; aac(6')-Ib-cr5; aadA1; aadA2; aph(3'')-Ib; aph(6)-Id; arr-2; qacEdelta1
+ERR10125140,ERR10125140,1,blaSCO-1; blaTEM-1; blaOXA-10; cmlA5; dfrA12; dfrA23; blaCTX-M-15; qnrB1; mph(A); sul1; sul2; aac(3)-IId; aadA1; aadA2; aph(3'')-Ib; aph(6)-Id; arr-2; qacEdelta1
+ERR10949303,ERR10949303,1,blaSCO-1; blaTEM-1; blaOXA-1; blaOXA-10; cmlA5; dfrA12; dfrA23; blaCTX-M-15; qnrB1; mph(A); sul1; sul2; aac(3)-IId; aac(6')-Ib-cr5; aadA1; aadA2; aph(3'')-Ib; aph(6)-Id; arr-2; qacEdelta1
+ERR10109277,ERR10109277,1,blaSCO-1; blaTEM-1; blaOXA-1; blaOXA-10; cmlA5; dfrA12; dfrA23; blaCTX-M-15; qnrB1; mph(A); sul1; sul2; aac(3)-IId; aac(6')-Ib-cr5; aadA1; aadA2; aph(3'')-Ib; aph(6)-Id; arr-2; qacEdelta1
+ERR10087013,ERR10087013,1,blaSCO-1; blaTEM-1; blaOXA-1; blaOXA-10; cmlA5; dfrA12; dfrA23; blaCTX-M-15; qnrB1; mph(A); sul1; sul2; aac(3)-IId; aac(6')-Ib-cr5; aadA1; aadA2; aph(3'')-Ib; aph(6)-Id; arr-2; qacEdelta1
+ERR12146144,ERR12146144,1,blaSCO-1; blaTEM-1; blaOXA-1; blaOXA-10; cmlA5; dfrA12; dfrA23; blaCTX-M-15; qnrB1; mph(A); sul1; sul2; aac(3)-IId; aac(6')-Ib-cr5; aadA1; aadA2; aph(3'')-Ib; aph(6)-Id; arr-2; qacEdelta1
+ERR11219811,ERR11219811,1,blaSCO-1; blaTEM-1; blaOXA-1; blaOXA-10; cmlA5; dfrA12; dfrA23; blaCTX-M-15; qnrB1; mph(A); sul1; sul2; aac(3)-IId; aac(6')-Ib-cr5; aadA1; aadA2; aph(3'')-Ib; aph(6)-Id; arr-2; qacEdelta1
+ERR11420238,ERR11420238,1,blaSCO-1; blaTEM-1; blaOXA-1; blaOXA-10; cmlA5; dfrA12; dfrA23; blaCTX-M-15; qnrB1; mph(A); sul1; sul2; aac(3)-IId; aac(6')-Ib-cr5; aadA1; aadA2; aph(3'')-Ib; aph(6)-Id; arr-2; qacEdelta1
+ERR11437918,ERR11437918,1,blaSCO-1; blaTEM-1; blaOXA-1; blaOXA-10; cmlA5; dfrA12; dfrA23; blaCTX-M-15; qnrB1; mph(A); sul1; sul2; aac(3)-IId; aac(6')-Ib-cr5; aadA1; aadA2; aph(3'')-Ib; aph(6)-Id; arr-2; qacEdelta1
+ERR11807709,ERR11807709,1,blaSCO-1; blaTEM-1; blaOXA-1; blaOXA-10; cmlA5; dfrA12; dfrA23; blaCTX-M-15; qnrB1; mph(A); sul1; sul2; aac(3)-IId; aac(6')-Ib-cr5; aadA1; aadA2; aph(3'')-Ib; aph(6)-Id; arr-2; qacEdelta1
+ERR10880183,ERR10880183,1,blaSCO-1; blaTEM-1; blaOXA-1; blaOXA-10; cmlA5; dfrA23; blaCTX-M-15; qnrB1; sul1; sul2; aac(6')-Ib-cr5; aadA1; aph(3'')-Ib; aph(6)-Id; arr-2; qacEdelta1
+ERR10880311,ERR10880311,1,blaSCO-1; blaTEM-1; blaOXA-1; blaOXA-10; cmlA5; dfrA23; blaCTX-M-15; qnrB1; sul1; sul2; aac(6')-Ib-cr5; aadA1; aph(3'')-Ib; aph(6)-Id; arr-2; qacEdelta1
+ERR10109274,ERR10109274,1,blaSCO-1; blaTEM-1; blaOXA-1; blaOXA-10; cmlA5; dfrA12; dfrA23; blaCTX-M-15; qnrB1; mph(A); sul1; sul2; aac(3)-IId; aac(6')-Ib-cr5; aadA1; aadA2; aph(3'')-Ib; aph(6)-Id; arr-2; qacEdelta1
+ERR12552381,ERR12552381,1,blaSCO-1; blaTEM-1; blaOXA-1; blaOXA-10; cmlA5; dfrA12; dfrA23; blaCTX-M-15; qnrB1; mph(A); sul1; sul2; aac(3)-IId; aac(6')-Ib-cr5; aadA1; aadA2; aph(3'')-Ib; aph(6)-Id; arr-2; qacEdelta1
+ERR12552377,ERR12552377,1,blaSCO-1; blaTEM-1; blaOXA-1; blaOXA-10; cmlA5; dfrA12; dfrA23; blaCTX-M-15; qnrB1; mph(A); sul1; sul2; aac(3)-IId; aac(6')-Ib-cr5; aadA1; aadA2; aph(3'')-Ib; aph(6)-Id; arr-2; qacEdelta1
+ERR11896635,ERR11896635,1,blaSCO-1; blaTEM-1; blaOXA-1; blaOXA-10; cmlA5; dfrA12; dfrA23; blaCTX-M-15; qnrB1; mph(A); sul1; sul2; aac(3)-IId; aac(6')-Ib-cr5; aadA1; aadA2; aph(3'')-Ib; aph(6)-Id; arr-2; qacEdelta1
+ERR9079508,ERR9079508,1,blaSCO-1; blaTEM-1; blaOXA-1; blaOXA-10; cmlA5; dfrA12; dfrA23; blaCTX-M-15; qnrB1; mph(A); sul1; sul2; aac(3)-IId; aac(6')-Ib-cr5; aadA1; aadA2; aph(3'')-Ib; aph(6)-Id; arr-2; qacEdelta1
+ERR9420153,ERR9420153,1,blaSCO-1; blaTEM-1; blaOXA-1; blaOXA-10; cmlA5; dfrA23; blaCTX-M-15; qnrB1; sul1; sul2; aac(6')-Ib-cr5; aadA1; aph(3'')-Ib; aph(6)-Id; arr-2; qacEdelta1
+ERR10117717,ERR10117717,1,blaSCO-1; blaTEM-1; blaOXA-1; blaOXA-10; cmlA5; dfrA23; blaCTX-M-15; qnrB1; sul1; sul2; aac(6')-Ib-cr5; aadA1; aph(3'')-Ib; aph(6)-Id; arr-2; qacEdelta1
+ERR6806600,ERR6806600,1,blaSCO-1; blaTEM-1; blaOXA-1; blaOXA-10; cmlA5; dfrA23; blaCTX-M-15; qnrB1; sul1; sul2; aac(6')-Ib-cr5; aadA1; aph(3'')-Ib; aph(6)-Id; arr-2; qacEdelta1
+ERR7197757,ERR7197757,1,blaSCO-1; blaTEM-1; blaOXA-1; blaOXA-10; cmlA5; dfrA23; blaCTX-M-15; qnrB1; sul1; sul2; aac(6')-Ib-cr5; aadA1; aph(3'')-Ib; aph(6)-Id; arr-2; qacEdelta1
+ERR6806028,ERR6806028,1,blaSCO-1; blaTEM-1; blaOXA-1; blaOXA-10; cmlA5; dfrA23; blaCTX-M-15; qnrB1; sul1; sul2; aac(6')-Ib-cr5; aadA1; aph(3'')-Ib; aph(6)-Id; arr-2; qacEdelta1
+ERR9288082,ERR9288082,1,blaSCO-1; blaTEM-1; blaOXA-1; blaOXA-10; cmlA5; dfrA23; blaCTX-M-15; qnrB1; sul1; sul2; aac(6')-Ib-cr5; aadA1; aph(3'')-Ib; aph(6)-Id; arr-2; qacEdelta1
+ERR11455881,ERR11455881,1,blaSCO-1; blaTEM-1; blaOXA-1; blaOXA-10; cmlA5; dfrA23; blaCTX-M-15; qnrB1; sul1; sul2; aac(6')-Ib-cr5; aadA1; aph(3'')-Ib; aph(6)-Id; arr-2; qacEdelta1
+ERR6806632,ERR6806632,1,blaTEM-1; blaOXA-10; cmlA5; dfrA23; blaCTX-M-15; qnrB1; sul1; sul2; aadA1; aph(3'')-Ib; aph(6)-Id; arr-2; qacEdelta1
+ERR4451478,ERR4451478,1,blaSCO-1; blaTEM-1; blaOXA-1; blaOXA-10; cmlA5; dfrA23; blaCTX-M-15; qnrB1; sul1; sul2; aac(6')-Ib-cr5; aadA1; aph(3'')-Ib; aph(6)-Id; arr-2; qacEdelta1
+ERR12302226,ERR12302226,1,blaSCO-1; blaTEM-1; blaOXA-1; blaOXA-10; cmlA5; dfrA23; blaCTX-M-15; qnrB1; sul1; sul2; aac(6')-Ib-cr5; aadA1; aph(3'')-Ib; aph(6)-Id; arr-2; qacEdelta1
+ERR12552384,ERR12552384,1,blaSCO-1; blaTEM-1; blaOXA-1; blaOXA-10; cmlA5; dfrA23; blaCTX-M-15; qnrB1; sul1; sul2; aac(6')-Ib-cr5; aadA1; aph(3'')-Ib; aph(6)-Id; arr-2; qacEdelta1
+ERR12067334,ERR12067334,1,blaSCO-1; blaTEM-1; blaOXA-1; blaOXA-10; cmlA5; dfrA23; blaCTX-M-15; qnrB1; sul1; sul2; aac(6')-Ib-cr5; aadA1; aph(3'')-Ib; aph(6)-Id; arr-2; qacEdelta1
+ERR10880424,ERR10880424,1,blaSCO-1; blaTEM-1; blaOXA-1; blaOXA-10; cmlA5; dfrA23; blaCTX-M-15; qnrB1; sul1; sul2; aac(6')-Ib-cr5; aadA1; aph(3'')-Ib; aph(6)-Id; arr-2; qacEdelta1
+ERR10123158,ERR10123158,1,blaSCO-1; blaTEM-1; blaOXA-1; blaOXA-10; cmlA5; dfrA23; blaCTX-M-15; qnrB1; sul1; sul2; aac(6')-Ib-cr5; aadA1; aph(3'')-Ib; aph(6)-Id; arr-2; qacEdelta1
+ERR10176869,ERR10176869,1,blaSCO-1; blaOXA-1; blaOXA-10; catA1; cmlA5; floR; dfrA14; dfrA23; blaCTX-M-15; qnrB1; mph(A); tet(A); sul1; sul2; aac(6')-Ib-cr5; aadA1; aph(3'')-Ib; aph(6)-Id; arr-2; qacEdelta1
+ERR10880230,ERR10880230,1,blaSCO-1; blaOXA-1; blaOXA-10; catA1; cmlA5; floR; dfrA14; dfrA23; blaCTX-M-15; qnrB1; mph(A); tet(A); sul1; sul2; aac(6')-Ib-cr5; aadA1; aph(3'')-Ib; aph(6)-Id; arr-2; qacEdelta1
+ERR11453719,ERR11453719,1,blaSCO-1; blaOXA-1; blaOXA-10; catA1; cmlA5; floR; dfrA14; dfrA23; blaCTX-M-15; qnrB1; tet(A); sul1; sul2; aac(6')-Ib-cr5; aadA1; aph(3'')-Ib; aph(6)-Id; arr-2; qacEdelta1
+ERR10880157,ERR10880157,1,blaSCO-1; blaOXA-1; blaOXA-10; catA1; cmlA5; floR; dfrA14; dfrA23; blaCTX-M-15; qnrB1; tet(A); sul1; sul2; aac(6')-Ib-cr5; aadA1; aph(3'')-Ib; aph(6)-Id; arr-2; qacEdelta1
+ERR11872767,ERR11872767,1,blaSCO-1; blaOXA-1; blaOXA-10; catA1; cmlA5; floR; dfrA14; dfrA23; blaCTX-M-15; qnrB1; mph(A); tet(A); sul1; sul2; aac(6')-Ib-cr5; aadA1; aph(3'')-Ib; aph(6)-Id; arr-2; qacEdelta1
+ERR6752889,ERR6752889,1,blaSCO-1; blaOXA-1; blaOXA-10; catA1; cmlA5; floR; dfrA14; dfrA23; blaCTX-M-15; qnrB1; mph(A); tet(A); sul1; sul2; aac(6')-Ib-cr5; aadA1; aph(3'')-Ib; aph(6)-Id; arr-2; qacEdelta1
+ERR9288143,ERR9288143,1,blaSCO-1; blaOXA-1; blaOXA-10; catA1; cmlA5; floR; dfrA14; dfrA23; blaCTX-M-15; qnrB1; mph(A); tet(A); sul1; sul2; aac(6')-Ib-cr5; aadA1; aph(3'')-Ib; aph(6)-Id; arr-2; qacEdelta1
+ERR5751308,ERR5751308,0,blaSCO-1; blaOXA-10; cmlA5; floR; dfrA23; blaCTX-M-15; blaTEM-63; tet(A); sul1; sul2; aac(3)-IIe; aadA1; aph(3'')-Ib; aph(6)-Id; arr-2; qacEdelta1
+ERR4399358,ERR4399358,0,blaSCO-1; blaOXA-10; cmlA5; floR; dfrA14; dfrA23; blaSHV-5; blaTEM-131; mph(A); tet(A); sul1; sul2; aac(3)-IIe; aac(6')-Ib; aadA1; aph(3'')-Ib; aph(6)-Id; arr-2; qacEdelta1
+ERR4399957,ERR4399957,0,blaSCO-1; blaOXA-10; cmlA5; floR; dfrA14; dfrA23; blaSHV-5; blaTEM-131; mph(A); tet(A); sul1; sul2; aac(3)-IIe; aac(6')-Ib; aadA1; aph(3'')-Ib; aph(6)-Id; arr-2; qacEdelta1
+ERR4399362,ERR4399362,0,blaSCO-1; blaOXA-10; cmlA5; floR; dfrA14; dfrA23; blaTEM-131; mph(A); tet(A); sul1; sul2; aac(3)-IIe; aadA1; aph(3'')-Ib; aph(6)-Id; arr-2; qacEdelta1
+SRR13833609,SRR13833609,0,
+SRR13719289,SRR13719289,0,qnrB19; sul2
+SRR13719614,SRR13719614,0,qnrB19
+SRR13313312,SRR13313312,0,qnrB19
+SRR13313295,SRR13313295,0,
+SRR13719196,SRR13719196,0,qnrB19
+SRR13277434,SRR13277434,0,qnrB19
+SRR13277416,SRR13277416,0,qnrB19
+SRR13277412,SRR13277412,0,qnrB19
+SRR13311773,SRR13311773,0,qnrB19
+SRR13313309,SRR13313309,0,
+SRR27481822,SRR27481822,0,qnrB19
+SRR27481651,SRR27481651,0,qnrB19
+SRR27481649,SRR27481649,0,qnrB19
+SRR27481520,SRR27481520,0,qnrB19
+SRR27481815,SRR27481815,0,qnrB19
+SRR7130368,SRR7130368,0,qnrB19
+SRR7130370,SRR7130370,0,qnrB19
+SRR7130371,SRR7130371,0,qnrB19
+SRR13312061,SRR13312061,0,qnrB19
+SRR7130369,SRR7130369,0,qnrB19
+ERR4400834,ERR4400834,0,gyrA_S83F
+ERR4338896,ERR4338896,0,gyrA_S83F
+ERR4338560,ERR4338560,0,gyrA_S83F
+SRR1106479,SRR1106479,0,gyrA_S83F
+ERR3581536,ERR3581536,0,
+SRR8369293,SRR8369293,0,
+SRR7842526,SRR7842526,0,
+SRR8297279,SRR8297279,0,
+SRR7850690,SRR7850690,0,
+SRR7884719,SRR7884719,0,
+SRR8350305,SRR8350305,0,
+SRR15853458,SRR15853458,0,dfrA1; sul2; aph(3'')-Ib; aph(6)-Id
+SRR21224019,SRR21224019,0,
+SRR20212638,SRR20212638,0,
+SRR8706049,SRR8706049,0,
+SRR16227977,SRR16227977,0,
+ERR4399344,ERR4399344,0,
+SRR7841631,SRR7841631,0,
+SRR22691594,SRR22691594,0,
+SRR16301618,SRR16301618,0,
+ERR10109287,ERR10109287,0,
+ERR9680890,ERR9680890,0,
+SRR14921286,SRR14921286,0,floR; dfrA15; dfrA17; qnrB19; tet(A); sul1; aac(3)-VIa; aadA1; aadA5; aph(3')-Ia; qacEdelta1
+SRR28295566,SRR28295566,0,qnrB19
+ERR4145363,ERR4145363,0,floR; dfrA15; dfrA17; qnrB19; tet(A); aac(3)-VIa; aadA1; aadA5; aph(3')-Ia; qacEdelta1
+ERR4145392,ERR4145392,0,floR; dfrA15; dfrA17; qnrB19; tet(A); aac(3)-VIa; aadA1; aadA5; aph(3')-Ia; qacEdelta1
+ERR4145410,ERR4145410,0,floR; dfrA15; dfrA17; qnrB19; tet(A); aac(3)-VIa; aadA1; aadA5; aph(3')-Ia; qacEdelta1
+ERR4145345,ERR4145345,0,floR; dfrA15; dfrA17; qnrB19; tet(A); sul1; aac(3)-VIa; aadA1; aadA5; aph(3')-Ia; qacEdelta1
+SRR8325561,SRR8325561,0,qnrB19
+SRR8293522,SRR8293522,0,qnrB19
+ERR4145388,ERR4145388,0,qnrB19
+ERR4145353,ERR4145353,0,qnrB19
+SRR10326268,SRR10326268,0,qnrB19
+SRR9627787,SRR9627787,0,qnrB19
+SRR27762886,SRR27762886,0,qnrB19
+SRR10992537,SRR10992537,0,qnrB19
+SRR1646109,SRR1646109,0,qnrB19
+SRR7427053,SRR7427053,0,blaLAP-2; catA1; dfrA1; qnrB19; qnrS1; tet(A); sul1; aadA1; qacEdelta1
+SRR8503644,SRR8503644,0,qnrB19
+SRR7457932,SRR7457932,0,qnrB19
+SRR2917137,SRR2917137,0,blaCTX-M-2; qnrB19; sul1; aac(3)-VIa; aadA1; qacEdelta1; ramR_T18P
+SRR2917139,SRR2917139,0,blaCTX-M-2; qnrB19; sul1; aac(3)-VIa; aadA1; qacEdelta1; ramR_T18P
+SRR3137069,SRR3137069,0,blaCTX-M-2; qnrB19; sul1; aac(3)-VIa; aadA1; qacEdelta1; ramR_T18P
+SRR6107195,SRR6107195,0,blaCTX-M-2; qnrB19; sul1; aac(3)-VIa; aadA1; qacEdelta1; ramR_T18P
+SRR2917138,SRR2917138,0,blaCTX-M-2; qnrB19; sul1; aac(3)-VIa; aadA1; qacEdelta1; ramR_T18P
+SRR2917136,SRR2917136,0,blaCTX-M-2; qnrB19; sul1; aac(3)-VIa; aadA1; qacEdelta1
+SRR5084265,SRR5084265,0,qnrB19; sul1; aac(3)-VIa; aadA1; qacEdelta1
+SRR5121494,SRR5121494,0,qnrB19; sul1; aadA1; qacEdelta1; ramR_T18P
+SRR3001933,SRR3001933,0,blaCTX-M-2; qnrB19; sul1; aac(3)-VIa; aadA1; qacEdelta1
+SRR5121497,SRR5121497,0,blaCTX-M-2; qnrB19; sul1; aac(3)-VIa; aadA1; qacEdelta1
+SRR2917140,SRR2917140,0,blaCTX-M-2; qnrB19; sul1; aac(3)-VIa; aadA1; qacEdelta1
+ERR10368770,ERR10368770,0,blaCTX-M-2; qnrB19; sul1; aac(3)-VIa; aadA1; qacEdelta1
+ERR160996,ERR160996,0,qnrB19
+SRR5056398,SRR5056398,0,qnrB19
+ERR3635287,ERR3635287,0,qnrB19
+SRR22175068,SRR22175068,0,qnrB19
+SRR21787058,SRR21787058,0,qnrB19
+SRR21787324,SRR21787324,0,qnrB19
+SRR26858817,SRR26858817,0,qnrB19
+SRR27185117,SRR27185117,0,qnrB19
+SRR21535455,SRR21535455,0,qnrB19
+SRR21535466,SRR21535466,0,qnrB19
+SRR26050334,SRR26050334,0,qnrB19
+SRR5379276,SRR5379276,0,qnrB19
+SRR6457657,SRR6457657,0,qnrB19
+SRR14360286,SRR14360286,0,qnrB
+SRR8137438,SRR8137438,0,qnrB19
+ERR3635266,ERR3635266,0,
+SRR1973602,SRR1973602,0,
+SRR3002514,SRR3002514,0,
+SRR7467291,SRR7467291,0,qnrB19
+ERR4400884,ERR4400884,1,blaSCO-1; blaOXA-10; cmlA5; floR; dfrA23; blaTEM-63; gyrA_D87N; tet(A); sul1; sul2; aac(3)-IIe; aadA1; aph(3'')-Ib; aph(6)-Id; arr-2; qacEdelta1
+ERR4399363,ERR4399363,1,blaSCO-1; blaOXA-10; cmlA5; floR; dfrA23; blaTEM-63; gyrA_D87N; tet(A); sul1; sul2; aac(3)-IIe; aadA1; aph(3'')-Ib; aph(6)-Id; arr-2; qacEdelta1
+ERR4401298,ERR4401298,1,blaSCO-1; blaOXA-10; cmlA5; floR; dfrA23; blaTEM-63; gyrA_D87N; tet(A); sul1; sul2; aac(3)-IIe; aadA1; aph(3'')-Ib; aph(6)-Id; arr-2; qacEdelta1
+ERR4400265,ERR4400265,1,blaSCO-1; blaOXA-10; cmlA5; floR; dfrA23; blaTEM-63; gyrA_D87N; tet(A); sul1; sul2; aac(3)-IIe; aadA1; aph(3'')-Ib; aph(6)-Id; arr-2; qacEdelta1
+ERR4401598,ERR4401598,1,blaSCO-1; blaOXA-10; cmlA5; floR; dfrA23; blaTEM-63; gyrA_D87N; tet(A); sul1; sul2; aac(3)-IIe; aadA1; aph(3'')-Ib; aph(6)-Id; arr-2; qacEdelta1
+ERR4401297,ERR4401297,1,blaSCO-1; blaOXA-10; cmlA5; floR; dfrA23; blaTEM-63; gyrA_D87N; tet(A); sul1; sul2; aac(3)-IIe; aadA1; aph(3'')-Ib; aph(6)-Id; arr-2; qacEdelta1
+ERR4401299,ERR4401299,1,blaSCO-1; blaOXA-10; cmlA5; floR; dfrA23; blaTEM-63; gyrA_D87N; tet(A); sul1; sul2; aac(3)-IIe; aadA1; aph(3'')-Ib; aph(6)-Id; arr-2; qacEdelta1
+ERR6806710,ERR6806710,0,
+SRR952929,SRR952929,0,
+SRR7292863,SRR7292863,0,
+SRR1966891,SRR1966891,0,
+SRR1967735,SRR1967735,0,
+BKRRJK,ERR16714671,1,blaOXA-1; blaOXA-10; cmlA5; floR; dfrA23; blaCTX-M-15; qnrB1; tet(A); sul1; sul2; aac(3)-IIe; aac(6')-Ib-cr5; aadA1; aph(3'')-Ib; aph(6)-Id; arr-2; qacEdelta1
+CAAQIG,ERR16714673,1,blaOXA-1; blaOXA-10; cmlA5; dfrA23; blaCTX-M-15; qnrB; tet(A); sul1; sul2; aac(3)-IIe; aac(6')-Ib-cr5; aadA1; aph(3'')-Ib; aph(6)-Id; arr-2; qacEdelta1
+CAAS99,ERR16714678,1,blaOXA-1; blaOXA-10; cmlA5; dfrA23; blaCTX-M-15; qnrB1; sul1; sul2; aac(3)-IIe; aac(6')-Ib-cr; aadA1; aph(3'')-Ib; aph(6)-Id; arr-2; qacEdelta1
+CAAYM5,ERR16714682,1,blaOXA-1; blaOXA-10; cmlA5; floR; dfrA23; blaCTX-M-15; qnrB1; tet(A); sul1; sul2; aac(3)-IIe; aac(6')-Ib-cr; aadA1; aph(3'')-Ib; aph(6)-Id; arr-2; qacEdelta1
+CNS4NS,ERR16714724,1,blaOXA-1; blaOXA-10; cmlA5; floR; dfrA23; blaCTX-M-15; qnrB1; sul1; sul2; aac(3)-IIe; aac(6')-Ib-cr5; aadA1; aph(3'')-Ib; aph(6)-Id; arr-2; qacEdelta1
+CNSNZ2,ERR16714731,1,blaOXA-10; cmlA5; floR; dfrA23; blaCTX-M-15; qnrB1; tet(A); sul1; sul2; aac(3)-IIe; aadA1; aph(3'')-Ib; aph(6)-Id; arr-2; qacEdelta1
+ERR4401589,ERR4401589,0,
+SRR1106363,SRR1106363,0,
+SRR1643104,SRR1643104,0,
+SRR1810522,SRR1810522,0,
+SRR2173991,SRR2173991,0,
+SRR26463587,SRR26463587,0,
+SRR2961321,SRR2961321,0,
+SRR3322715,SRR3322715,0,
+SRR5799674,SRR5799674,0,
+SRR6684992,SRR6684992,0,
+SRR6685117,SRR6685117,0,
+SRR7292689,SRR7292689,0,

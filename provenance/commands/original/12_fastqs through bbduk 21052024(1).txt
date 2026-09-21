@@ -1,0 +1,80 @@
+for i in $*_R1*; do echo "$i" "i/_R1*/_1.fastq.gz"
+
+for i in *_R1*; do
+  mv "$i" "${i/_R1*/_1.fastq.gz}"
+done
+
+for i in *_R2*; do
+  mv "$i" "${i/_R2*/_2.fastq.gz}"
+done
+
+
+for f in *_R1*; do
+  new_name="${f/_R1*/_1.fastq.gz}"
+  mv "$f" "$new_name"
+done
+
+
+bbduk.sh threads=8 ref=adapters.fa in=input_R1.fastq in2=input_R2.fastq out=output_R1.trimmed.fastq out2=output_R2.trimmed.fastq ktrim=r k=23 mink=11 hdist=1 tbo tpe qtrim=r trimq=20 minlength=50
+
+for f in *_1.fastq.gz; do echo "$f ${f/_1/_2}"; done
+ 
+
+for f in *_1.fastq.gz; do
+  f2=${f/_1/_2}
+  out1=${f/_1/_1_trimmed.fastq.gz}
+  out2=${f/_1/_2_trimmed.fastq.gz}
+  bbduk.sh threads=8 ref=/data/fast/salmonella/pjohnston/isangi/adapters/adapters.fa in=$f in2=$f2 out=$out1 out2=$out2 ktrim=r k=23 mink=11 hdist=1 tbo tpe qtrim=r trimq=20 minlength=50
+done >> /data/fast/salmonella/pjohnston/isangi/all_bbduk
+
+####
+output_dir="/data/fast/salmonella/pjohnston/isangi/all_bbduk"
+
+for f in *_1.fastq.gz; do
+  # Construct the second pair filename
+  f2=${f/_1.fastq.gz/_2.fastq.gz}
+  
+  # Strip the suffix and add the new suffix
+  base=$(basename ${f%_1.fastq.gz})
+  out1="${output_dir}/${base}_1_trimmed.fastq.gz"
+  out2="${output_dir}/${base}_2_trimmed.fastq.gz"
+  
+  # Run bbduk with the correct filenames
+  bbduk.sh threads=8 ref=/data/fast/salmonella/pjohnston/isangi/adapters/adapters.fa \
+    in=$f in2=$f2 out=$out1 out2=$out2 ktrim=r k=23 mink=11 hdist=1 tbo tpe qtrim=r trimq=20 minlength=50
+done
+##
+
+for f in *_1.fastq.gz; do echo
+ "$f ${f/_1.fastq.gz/_2.fastq.gz}"; done
+  
+  # Strip the suffix and add the new suffix
+  base=$(basename ${f%_1.fastq.gz})
+
+  ##
+
+
+  output_dir="/data/fast/salmonella/pjohnston/isangi/all_bbduk/"
+for f in *_1.fastq.gz; do
+  f2=${f/_1.fastq.gz/_2.fastq.gz}
+  base=$(basename ${f%_1.fastq.gz})
+  out1="${output_dir}/${base}_1_trimmed.fastq.gz"
+  out2="${output_dir}/${base}_2_trimmed.fastq.gz"
+  bbduk.sh threads=12 ref=/data/fast/salmonella/pjohnston/isangi/adapters/adapters.fa \
+    in=$f in2=$f2 out=$out1 out2=$out2 ktrim=r k=23 mink=11 hdist=1 tbo tpe qtrim=r trimq=20 minlength=50
+done
+
+
+output_dir="/data/fast/salmonella/pjohnston/isangi/all_bbduk"
+for f in *_1.fastq.gz; do
+  f2="${f/_1.fastq.gz/_2.fastq.gz}"
+  base=$(basename "${f%_1.fastq.gz}")
+  out1="${output_dir}/${base}_1_trimmed.fastq.gz"
+  out2="${output_dir}/${base}_2_trimmed.fastq.gz"
+  bbduk.sh threads=12 ref=/data/fast/salmonella/pjohnston/isangi/adapters/adapters.fa \
+    in="$f" in2="$f2" out="$out1" out2="$out2" ktrim=r k=23 mink=11 hdist=1 tbo tpe qtrim=r trimq=20 minlength=50
+done
+
+
+
+

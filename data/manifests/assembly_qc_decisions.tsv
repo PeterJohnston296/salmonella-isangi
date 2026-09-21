@@ -1,0 +1,12 @@
+analysis_id	reason	also_non_isangi	source_id
+CAA4ZQ_S20_L001	total length too low; number of contigs too high	true	N10
+CNSFQ6_S2_L001	total length too low; number of contigs too high	true	N10
+SRR3049609	total length too high; number of contigs too high	false	N10
+ERR9939690	total length too high; number of contigs too high	false	N10
+ERR9939684	total length too high; number of contigs too high	false	N10
+CAAY6Q_S8_L001	total length too high; number of contigs too high	true	N10
+CIS16NH1_S10_L001	number of contigs too high	false	N10
+ERR11201713	number of contigs too high	false	N10
+CAAFTU_S7_L001	number of contigs too high	false	N10
+CLL2BU_S11_L001	number of contigs too high	true	N10
+CAAXT0_S3_L001	number of contigs too high	false	N10

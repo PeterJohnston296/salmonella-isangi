@@ -1,0 +1,12 @@
+# N19, before the October QC-restricted Gubbins/RAxML recipe:
+iqtree2 -s ebg25combined_alignment.fasta -m GTR+I+G -nt 32 -bb 1000 -alrt 1000
+
+# N13, no database explicitly selected in the displayed command:
+abricate *assemblies_contigs.fasta > /data/fast/salmonella/pjohnston/isangi/abricate/results.tab
+abricate --summary /data/fast/salmonella/pjohnston/isangi/abricate/results.tab > /data/fast/salmonella/pjohnston/isangi/abricate/all_isangi_assemblies.tab
+
+# N23, note the PHEnix input file, not a de novo SPAdes assembly:
+"$bakta_path" --db "$db_path" --threads "$threads" \
+  --output "$isolate_output_dir" \
+  --prefix "$isolate_id" --force "$fasta_file"
+# fasta_file originates from */phenix_bbduk/*_all.fasta in N23.

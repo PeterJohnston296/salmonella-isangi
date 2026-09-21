@@ -1,0 +1,20 @@
+table,title,source,output
+1,Neonatal-unit isolates,neonatal_unit_isolates_37.csv,results/tables/Table_S01.csv
+2,Ohio disinfectant MIC/MBC,disinfectant_MIC_MBC_original.csv,results/tables/Table_S02.csv
+3,Malawi Isangi biocide results,Kenneth_recorded_biocide_results_42.csv,results/tables/Table_S03.csv
+4,Malawi comparator biocide results,Kenneth_recorded_biocide_results_42.csv,results/tables/Table_S04.csv
+5,Complete 345-isolate register,isolate_accession_line_list_345.csv,results/tables/Table_S05.csv
+6,80-isolate deposition register,ENA_deposited_isolates_80.csv,results/tables/Table_S06.csv
+7,"Isangi inhibition zones, part 1",phenotype_zone_diameters_42.csv,results/tables/Table_S07.csv
+8,"Isangi inhibition zones, part 2",phenotype_zone_diameters_42.csv,results/tables/Table_S08.csv
+9,"Isangi recorded calls, part 1",phenotype_categories_as_recorded_42.csv,results/tables/Table_S09.csv
+10,"Isangi recorded calls, part 2",phenotype_categories_as_recorded_42.csv,results/tables/Table_S10.csv
+11,Operational phenotype components,phenotype_categories_as_recorded_42.csv; scientific_config.json,results/tables/Table_S11.csv
+12,Antibiotic dictionary,antibiotic_dictionary_17.csv,results/tables/Table_S12.csv
+13,Genomic marker rules,genomic_category_marker_dictionary.csv,results/tables/Table_S13.csv
+14,All 345 genomic annotations,isolate_accession_line_list_345.csv,results/tables/Table_S14.csv
+15,Analytical population sizes,Validated manifests and matrices,results/tables/Table_S15.csv
+16,18 isolates outside CC25,isolates_outside_CC25_tree_18.csv,results/tables/Table_S16.csv
+17,CC25 detail-panel index,panel_summary.csv,results/tables/Table_S17.csv
+18,19 phenotype-to-genome links,isolate_accession_line_list_345.csv,results/tables/Table_S18.csv
+19,Experimental strain linkage,isolate_accession_line_list_345.csv,results/tables/Table_S19.csv

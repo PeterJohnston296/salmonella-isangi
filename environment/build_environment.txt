@@ -1,0 +1,10 @@
+Release validation environment
+Date: 21 September 2026
+Operating system: Ubuntu 24.04.1 LTS (x86_64)
+R: 4.3.3 (2024-02-29)
+Quarto: 1.10.18
+Python: 3.12.14
+
+The exact installed R package inventory is in R_packages.csv. The restorable R
+dependency record is in renv.lock, and sessionInfo.txt records the packages
+attached during environment capture.

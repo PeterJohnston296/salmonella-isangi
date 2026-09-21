@@ -1,0 +1,132 @@
+# use mamba to install shovill
+
+mamba create -n shovill bioconda::shovill
+
+mamba activate shovill
+
+for elephant in /data/fast/salmonella/pjohnston/isangi/NCBI/NCBI_fastq/*fastq.gz;
+do SAMPLE=$(echo ${elephant} | sed "s/_1.fastq.gz//");
+echo ${SAMPLE}_1.fastq.gz $SAMPLE_2.fastq.gz;
+shovill --
+
+#!/bin/bash
+
+# Loop through only the "_1.fastq.gz" files to ensure each pair is processed once
+ # Extract the base SAMPLE name by removing the "_1.fastq.gz" part
+ # Define forward and reverse read files
+ # Print the file names (optional, for verification)
+ # Create an output directory specifically for this sample
+ # Specify the amount of RAM and CPUs based on your system's resources
+
+#!/bin/bash
+
+# Define the output directory for Shovill assemblies
+output_dir="shovill_assemblies"
+
+# Create the output directory if it doesn't already exist
+mkdir -p "$output_dir"
+
+# Loop through all "_1.fastq.gz" files in the current directory
+for fwd_reads in *_1.fastq.gz; do
+    # Remove the "_1.fastq.gz" suffix to get the base sample name
+    base_name="${fwd_reads%_1.fastq.gz}"
+    
+    # Define the forward and reverse read files
+    fwd_file="${base_name}_1.fastq.gz"
+    rev_file="${base_name}_2.fastq.gz"
+    
+    # Specify the output directory for the current sample
+    sample_out_dir="${output_dir}/${base_name}"
+    mkdir -p "$sample_out_dir"
+    
+    # Print processing message
+    echo "Processing sample: $base_name"
+    echo "Forward reads: $fwd_file"
+    echo "Reverse reads: $rev_file"
+    echo "Output directory: $sample_out_dir"
+    
+    # Run Shovill to assemble the genome
+    shovill --R1 "$fwd_file" --R2 "$rev_file" \
+            --outdir "$sample_out_dir" \
+            --cpus 4 --ram 16  # Adjust these values based on your machine's resources
+    
+    # Check if Shovill completed successfully
+    if [ $? -eq 0 ]; then
+        echo "Assembly completed successfully for sample: $base_name"
+    else
+        echo "Error during assembly for sample: $base_name"
+    fi
+done
+
+echo "All samples have been processed."
+
+# A test of shovill on one pair of reads to see whether it works
+
+shovill --R1 /data/fast/salmonella/pjohnston/isangi/NCBI/NCBI_fastq/ERR10026000_1.fastq.gz \
+        --R2 /data/fast/salmonella/pjohnston/isangi/NCBI/NCBI_fastq/ERR10026000_2.fastq.gz \
+        --outdir /data/fast/salmonella/pjohnston/isangi/NCBI/shovill_out_test \
+        --cpus 12 --ram 16
+
+ # this worked, but didn't append unique file names.
+
+
+num_jobs=8
+
+shovill_out_ncbi="/data/fast/salmonella/pjohnston/isangi/NCBI/shovill_out_ncbi"
+
+mkdir -p "$shovill_out_ncbi"
+
+sample_list="unique_prefixes_2.txt"
+
+cat "$sample_list" | parallel -j $num_jobs \
+    "shovill --R1 {}_1.fastq.gz --R2 {}_2.fastq.gz \
+            --outdir '$shovill_out_ncbi/{}' \
+            --cpus 8 --ram 16"
+
+ for file in "'$shovill_out_ncbi'/{}"/*; do \
+         mv "$file" "'$shovill_out_ncbi'/{}"'"/"$(basename {})_$(basename "$file")"; \
+     done
+
+     echo "All samples have been processed"
+
+
+#!/bin/bash
+
+# Set the number of parallel jobs
+num_jobs=8
+
+# Define the base output directory for all Shovill assemblies
+shovill_out_ncbi="/data/fast/salmonella/pjohnston/isangi/NCBI/shovill_out_ncbi"
+
+# Ensure the output directory exists
+mkdir -p "$shovill_out_ncbi"
+
+# File containing list of sample identifiers
+sample_list="unique_prefixes_2.txt"
+
+# Run Shovill for each sample identifier in parallel and rename output files
+cat "$sample_list" | parallel -j $num_jobs \
+    "shovill --R1 {}_1.fastq.gz --R2 {}_2.fastq.gz \
+            --outdir '$shovill_out_ncbi/{}' \
+            --cpus 8 --ram 16; \
+     for file in '$shovill_out_ncbi'/{}/*; do \
+         mv \"\$file\" \"'$shovill_out_ncbi'/{}\"/\"$(basename {})_\$(basename \"\$file\")\"; \
+     done"
+
+echo "All samples have been processed"
+
+
+
+
+num_jobs=8
+shovill_out_ncbi="/data/fast/salmonella/pjohnston/isangi/NCBI/shovill_out_ncbi"
+mkdir -p "$shovill_out_ncbi"
+sample_list="unique_prefixes_2.txt"
+cat "$sample_list" | parallel -j $num_jobs \
+    "shovill --R1 {}_1.fastq.gz --R2 {}_2.fastq.gz \
+            --outdir '$shovill_out_ncbi/{}' \
+            --cpus 8 --ram 16; \
+     for file in '$shovill_out_ncbi'/{}/*; do \
+         mv \"\$file\" \"'$shovill_out_ncbi'/{}\"/\"$(basename {})_\$(basename \"\$file\")\"; \
+     done"
+echo "All samples have been processed"

@@ -1,0 +1,75 @@
+isolate_id,source,collection_month,SNP_distance_to_reference,reference_isolate
+44341_3_128,River water,2020-09,5,CAAP2A
+44341_3_131,River water,2020-09,4,CAAP2A
+44341_3_136,River water,2020-09,4,CAAP2A
+44341_3_165,River water,2020-09,7,CAAP2A
+44341_3_21,River water,2020-10,7,CAAP2A
+44341_3_262,River water,2020-08,8,CAAP2A
+44341_3_265,River water,2020-03,8,CAAP2A
+44341_3_268,River water,2020-03,8,CAAP2A
+44341_3_280,River water,2020-03,8,CAAP2A
+44341_3_281,River water,2020-03,3,CAAP2A
+44341_3_304,River water,2020-03,3,CAAP2A
+44341_3_305,River water,2020-03,3,CAAP2A
+44341_3_310,River water,2020-03,4,CAAP2A
+44341_3_96,River water,2020-10,7,CAAP2A
+44341_4_275,River water,2020-03,3,CAAP2A
+44341_4_286,River water,2020-03,8,CAAP2A
+BKRMVD,CSF,2020-01,2,CAAP2A
+BKRRIF,CSF,2021-02,8,CAAP2A
+CAAP2A,Blood culture,2019-03,0,CAAP2A
+CAAQUT,Blood culture,2018-05,12,CAAP2A
+CAAQXB,Blood culture,2019-06,11,CAAP2A
+CAAR9T,Blood culture,2019-06,12,CAAP2A
+CAARE3,Blood culture,2019-05,11,CAAP2A
+CAAXBN,Blood culture,2019-12,2,CAAP2A
+CAAXQV,Blood culture,2020-02,3,CAAP2A
+CAAYDF,Blood culture,2020-03,2,CAAP2A
+CAAYSI,Blood culture,2020-03,3,CAAP2A
+CIS153C1,Neonatal unit sampling,2020-02,4,CAAP2A
+CIS15HB1,Neonatal unit sampling,2020-03,3,CAAP2A
+CIS15MR1,Neonatal unit sampling,2020-03,3,CAAP2A
+CIT159B1,Neonatal unit sampling,2020-02,3,CAAP2A
+CIT15EB1,Neonatal unit sampling,2020-03,3,CAAP2A
+CIT15FB1,Neonatal unit sampling,2020-03,4,CAAP2A
+CIT15FH1,Neonatal unit sampling,2020-03,3,CAAP2A
+CIT15GH1,Neonatal unit sampling,2020-03,3,CAAP2A
+CIT15GS1,Neonatal unit sampling,2020-03,3,CAAP2A
+CIU13XS1,Neonatal unit sampling,2020-02,3,CAAP2A
+CIU145B1,Neonatal unit sampling,2020-03,3,CAAP2A
+CIU149H1,Neonatal unit sampling,2020-03,3,CAAP2A
+CIV13PE7,Neonatal unit sampling,2020-02,4,CAAP2A
+CIV13RE2,Neonatal unit sampling,2020-02,3,CAAP2A
+CIV13UE4,Neonatal unit sampling,2020-03,3,CAAP2A
+CIV13VE5,Neonatal unit sampling,2020-03,3,CAAP2A
+CIV13XE2,Neonatal unit sampling,2020-03,4,CAAP2A
+CIV13XE5,Neonatal unit sampling,2020-03,3,CAAP2A
+CIV13XE8,Neonatal unit sampling,2020-03,4,CAAP2A
+CIV13XU1,Neonatal unit sampling,2020-03,4,CAAP2A
+CIV13YE6,Neonatal unit sampling,2020-03,3,CAAP2A
+CIV13YE8,Neonatal unit sampling,2020-03,3,CAAP2A
+CIV140E1,Neonatal unit sampling,2020-03,3,CAAP2A
+CIV140E4,Neonatal unit sampling,2020-03,3,CAAP2A
+CIV140E6,Neonatal unit sampling,2020-03,3,CAAP2A
+CIV140E7,Neonatal unit sampling,2020-03,3,CAAP2A
+CIV140U1,Neonatal unit sampling,2020-03,3,CAAP2A
+CIV141E6,Neonatal unit sampling,2020-03,3,CAAP2A
+CIV142E6,Neonatal unit sampling,2020-03,5,CAAP2A
+CIV143E2,Neonatal unit sampling,2020-03,3,CAAP2A
+CIV143E4,Neonatal unit sampling,2020-03,3,CAAP2A
+CIV143E9,Neonatal unit sampling,2020-03,3,CAAP2A
+CIV143U1,Neonatal unit sampling,2020-03,3,CAAP2A
+CIV144E6,Neonatal unit sampling,2020-03,3,CAAP2A
+CIV144U1,Neonatal unit sampling,2020-03,4,CAAP2A
+CIV146E8,Neonatal unit sampling,2020-03,3,CAAP2A
+CIV147E3,Neonatal unit sampling,2020-03,3,CAAP2A
+CLL3JA,Blood culture,2020-09,6,CAAP2A
+CLL6CH,Blood culture,2022-05,11,CAAP2A
+CNS1F3,Blood culture,2020-04,3,CAAP2A
+CNS6QU,Blood culture,2020-12,8,CAAP2A
+CNS7YP,Blood culture,2021-02,8,CAAP2A
+CNSDXZ,Blood culture,2021-12,11,CAAP2A
+CNSFP4,Blood culture,2022-04,9,CAAP2A
+CNSKFP,Blood culture,2022-10,17,CAAP2A
+CNSLL4,Blood culture,2022-12,24,CAAP2A
+CNSP0U,Blood culture,2023-02,18,CAAP2A

@@ -1,0 +1,14 @@
+test_burden_against_approved_plot (test_release.ReleaseTests.test_burden_against_approved_plot) ... ok
+test_fasta_order_validation (test_release.ReleaseTests.test_fasta_order_validation) ... ok
+test_invalid_fasta_rejected (test_release.ReleaseTests.test_invalid_fasta_rejected) ... ok
+test_json_documents (test_release.ReleaseTests.test_json_documents) ... ok
+test_no_large_git_files (test_release.ReleaseTests.test_no_large_git_files) ... ok
+test_no_sequence_read_or_font_binaries (test_release.ReleaseTests.test_no_sequence_read_or_font_binaries) ... ok
+test_phenix_fasta_extraction (test_release.ReleaseTests.test_phenix_fasta_extraction) ... ok
+test_publication_data (test_release.ReleaseTests.test_publication_data) ... ok
+test_shell_syntax (test_release.ReleaseTests.test_shell_syntax) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 4.963s
+
+OK

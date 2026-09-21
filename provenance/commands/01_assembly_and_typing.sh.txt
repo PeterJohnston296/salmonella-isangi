@@ -1,0 +1,10 @@
+# Selected recorded invocations, not a complete executable script.
+# N03/N04/N05/N06/N07; path variables have meanings given in the source pages.
+# BBDuk: N03 records 8 threads; the uploaded May text also records 12.
+bbduk.sh threads=8 ref=/data/fast/salmonella/pjohnston/isangi/adapters/adapters.fa \
+  in="$f" in2="$f2" out="$out1" out2="$out2" ktrim=r k=23 mink=11 hdist=1 tbo tpe qtrim=r trimq=20 minlength=50
+
+spades.py -1 "$read1" -2 "$read2" -o "$output_dir" --careful -t 12
+quast -o $RESULTS_DIR/$ISOLATE_ID -t 12 $ASSEMBLY_FILE
+sistr -i "$file" "$filename" -f csv -o "$temp_csv"
+mlst --quiet *contigs.fasta > "$output_path"

@@ -1,0 +1,464 @@
+[
+  {
+    "name": "Figure_S5_CC25_panel_index",
+    "area": "supplementary",
+    "width_inches": 8.0,
+    "height_inches": 7.1,
+    "dpi": 600
+  },
+  {
+    "name": "Figure_S7_ST335_panel_index",
+    "area": "supplementary",
+    "width_inches": 8.0,
+    "height_inches": 7.1,
+    "dpi": 600
+  },
+  {
+    "name": "Figure_S6_CC25-01_labelled_tree",
+    "area": "supplementary",
+    "width_inches": 10.4,
+    "height_inches": 7.1,
+    "dpi": 600
+  },
+  {
+    "name": "Figure_S6_CC25-02_labelled_tree",
+    "area": "supplementary",
+    "width_inches": 10.4,
+    "height_inches": 7.1,
+    "dpi": 600
+  },
+  {
+    "name": "Figure_S6_CC25-03_labelled_tree",
+    "area": "supplementary",
+    "width_inches": 10.4,
+    "height_inches": 7.1,
+    "dpi": 600
+  },
+  {
+    "name": "Figure_S6_CC25-04_labelled_tree",
+    "area": "supplementary",
+    "width_inches": 10.4,
+    "height_inches": 7.1,
+    "dpi": 600
+  },
+  {
+    "name": "Figure_S6_CC25-05_labelled_tree",
+    "area": "supplementary",
+    "width_inches": 10.4,
+    "height_inches": 7.1,
+    "dpi": 600
+  },
+  {
+    "name": "Figure_S6_CC25-06_labelled_tree",
+    "area": "supplementary",
+    "width_inches": 10.4,
+    "height_inches": 7.1,
+    "dpi": 600
+  },
+  {
+    "name": "Figure_S6_CC25-07_labelled_tree",
+    "area": "supplementary",
+    "width_inches": 10.4,
+    "height_inches": 7.1,
+    "dpi": 600
+  },
+  {
+    "name": "Figure_S6_CC25-08_labelled_tree",
+    "area": "supplementary",
+    "width_inches": 10.4,
+    "height_inches": 7.1,
+    "dpi": 600
+  },
+  {
+    "name": "Figure_S6_CC25-09_labelled_tree",
+    "area": "supplementary",
+    "width_inches": 10.4,
+    "height_inches": 7.1,
+    "dpi": 600
+  },
+  {
+    "name": "Figure_S6_CC25-10_labelled_tree",
+    "area": "supplementary",
+    "width_inches": 10.4,
+    "height_inches": 7.1,
+    "dpi": 600
+  },
+  {
+    "name": "Figure_S6_CC25-11_labelled_tree",
+    "area": "supplementary",
+    "width_inches": 10.4,
+    "height_inches": 7.1,
+    "dpi": 600
+  },
+  {
+    "name": "Figure_S6_CC25-12_labelled_tree",
+    "area": "supplementary",
+    "width_inches": 10.4,
+    "height_inches": 7.1,
+    "dpi": 600
+  },
+  {
+    "name": "Figure_S8_ST335-01_genes_1",
+    "area": "supplementary",
+    "width_inches": 10.4,
+    "height_inches": 7.1,
+    "dpi": 600
+  },
+  {
+    "name": "Figure_S8_ST335-01_genes_2",
+    "area": "supplementary",
+    "width_inches": 10.4,
+    "height_inches": 7.1,
+    "dpi": 600
+  },
+  {
+    "name": "Figure_S8_ST335-02_genes_1",
+    "area": "supplementary",
+    "width_inches": 10.4,
+    "height_inches": 7.1,
+    "dpi": 600
+  },
+  {
+    "name": "Figure_S8_ST335-02_genes_2",
+    "area": "supplementary",
+    "width_inches": 10.4,
+    "height_inches": 7.1,
+    "dpi": 600
+  },
+  {
+    "name": "Figure_S8_ST335-03_genes_1",
+    "area": "supplementary",
+    "width_inches": 10.4,
+    "height_inches": 7.1,
+    "dpi": 600
+  },
+  {
+    "name": "Figure_S8_ST335-03_genes_2",
+    "area": "supplementary",
+    "width_inches": 10.4,
+    "height_inches": 7.1,
+    "dpi": 600
+  },
+  {
+    "name": "Figure_S8_ST335-04_genes_1",
+    "area": "supplementary",
+    "width_inches": 10.4,
+    "height_inches": 7.1,
+    "dpi": 600
+  },
+  {
+    "name": "Figure_S8_ST335-04_genes_2",
+    "area": "supplementary",
+    "width_inches": 10.4,
+    "height_inches": 7.1,
+    "dpi": 600
+  },
+  {
+    "name": "Figure_S8_ST335-05_genes_1",
+    "area": "supplementary",
+    "width_inches": 10.4,
+    "height_inches": 7.1,
+    "dpi": 600
+  },
+  {
+    "name": "Figure_S8_ST335-05_genes_2",
+    "area": "supplementary",
+    "width_inches": 10.4,
+    "height_inches": 7.1,
+    "dpi": 600
+  },
+  {
+    "name": "Figure_S8_ST335-06_genes_1",
+    "area": "supplementary",
+    "width_inches": 10.4,
+    "height_inches": 7.1,
+    "dpi": 600
+  },
+  {
+    "name": "Figure_S8_ST335-06_genes_2",
+    "area": "supplementary",
+    "width_inches": 10.4,
+    "height_inches": 7.1,
+    "dpi": 600
+  },
+  {
+    "name": "Figure_S8_ST335-07_genes_1",
+    "area": "supplementary",
+    "width_inches": 10.4,
+    "height_inches": 7.1,
+    "dpi": 600
+  },
+  {
+    "name": "Figure_S8_ST335-07_genes_2",
+    "area": "supplementary",
+    "width_inches": 10.4,
+    "height_inches": 7.1,
+    "dpi": 600
+  },
+  {
+    "name": "Figure_S14_comparator_phenotypes",
+    "area": "supplementary",
+    "width_inches": 10.4,
+    "height_inches": 6.8,
+    "dpi": 600
+  },
+  {
+    "name": "Figure_1D_Blantyre_map",
+    "area": "main",
+    "width_inches": 7.0,
+    "height_inches": 4.902031930333817,
+    "dpi": 600
+  },
+  {
+    "name": "Figure_3B_AMR_gene_burden",
+    "area": "main",
+    "width_inches": 5.3,
+    "height_inches": 4.756694560669455,
+    "dpi": 600
+  },
+  {
+    "name": "Figure_5_plasmid_comparison",
+    "area": "main",
+    "width_inches": 10.4,
+    "height_inches": 5.985649317837292,
+    "dpi": 600
+  },
+  {
+    "name": "Figure_S1_plasmid_network",
+    "area": "supplementary",
+    "width_inches": 4.2,
+    "height_inches": 6.468561872909699,
+    "dpi": 600
+  },
+  {
+    "name": "Figure_S2_confocal_biofilms",
+    "area": "supplementary",
+    "width_inches": 10.4,
+    "height_inches": 4.870886075949367,
+    "dpi": 600
+  },
+  {
+    "name": "Figure_S3_biofilm_quantification",
+    "area": "supplementary",
+    "width_inches": 10.4,
+    "height_inches": 5.626055979643766,
+    "dpi": 600
+  },
+  {
+    "name": "Figure_S4_mouse_survival",
+    "area": "supplementary",
+    "width_inches": 7.5,
+    "height_inches": 5.025380710659898,
+    "dpi": 600
+  },
+  {
+    "name": "Figure_3A_CC25_circular",
+    "area": "main",
+    "width_inches": 10.4,
+    "height_inches": 8.0,
+    "dpi": 600
+  },
+  {
+    "name": "Figure_4A_ST335_genomic_heatmap",
+    "area": "main",
+    "width_inches": 10.4,
+    "height_inches": 7.8,
+    "dpi": 600
+  },
+  {
+    "name": "Figure_4B_ST335_matched_phenotypes",
+    "area": "main",
+    "width_inches": 10.4,
+    "height_inches": 6.1,
+    "dpi": 600
+  },
+  {
+    "name": "Figure_2_phenotypic_susceptibility",
+    "area": "main",
+    "width_inches": 10.4,
+    "height_inches": 6.0,
+    "dpi": 600
+  },
+  {
+    "name": "Figure_1A_BSI_resistance",
+    "area": "main",
+    "width_inches": 7.2,
+    "height_inches": 4.8,
+    "dpi": 600
+  },
+  {
+    "name": "Figure_1Bi_timeline",
+    "area": "main",
+    "width_inches": 8.4,
+    "height_inches": 4.5,
+    "dpi": 600
+  },
+  {
+    "name": "Figure_1Bii_timeline_2020",
+    "area": "main",
+    "width_inches": 8.4,
+    "height_inches": 4.5,
+    "dpi": 600
+  },
+  {
+    "name": "Figure_1C_Malawi_minimum_spanning_tree",
+    "area": "main",
+    "width_inches": 8.8,
+    "height_inches": 6.3,
+    "dpi": 600
+  },
+  {
+    "name": "Figure_S9_CC25_complete_331",
+    "area": "supplementary",
+    "width_inches": 10.4,
+    "height_inches": 7.3,
+    "dpi": 600
+  },
+  {
+    "name": "Figure_S10_CC25_tree_aligned_327",
+    "area": "supplementary",
+    "width_inches": 10.4,
+    "height_inches": 7.3,
+    "dpi": 600
+  },
+  {
+    "name": "Figure_S12_CC25-01_SNP",
+    "area": "supplementary",
+    "width_inches": 10.4,
+    "height_inches": 7.3,
+    "dpi": 600
+  },
+  {
+    "name": "Figure_S12_CC25-02_SNP",
+    "area": "supplementary",
+    "width_inches": 10.4,
+    "height_inches": 7.3,
+    "dpi": 600
+  },
+  {
+    "name": "Figure_S12_CC25-03_SNP",
+    "area": "supplementary",
+    "width_inches": 10.4,
+    "height_inches": 7.3,
+    "dpi": 600
+  },
+  {
+    "name": "Figure_S12_CC25-04_SNP",
+    "area": "supplementary",
+    "width_inches": 10.4,
+    "height_inches": 7.3,
+    "dpi": 600
+  },
+  {
+    "name": "Figure_S12_CC25-05_SNP",
+    "area": "supplementary",
+    "width_inches": 10.4,
+    "height_inches": 7.3,
+    "dpi": 600
+  },
+  {
+    "name": "Figure_S12_CC25-06_SNP",
+    "area": "supplementary",
+    "width_inches": 10.4,
+    "height_inches": 7.3,
+    "dpi": 600
+  },
+  {
+    "name": "Figure_S12_CC25-07_SNP",
+    "area": "supplementary",
+    "width_inches": 10.4,
+    "height_inches": 7.3,
+    "dpi": 600
+  },
+  {
+    "name": "Figure_S12_CC25-08_SNP",
+    "area": "supplementary",
+    "width_inches": 10.4,
+    "height_inches": 7.3,
+    "dpi": 600
+  },
+  {
+    "name": "Figure_S12_CC25-09_SNP",
+    "area": "supplementary",
+    "width_inches": 10.4,
+    "height_inches": 7.3,
+    "dpi": 600
+  },
+  {
+    "name": "Figure_S12_CC25-10_SNP",
+    "area": "supplementary",
+    "width_inches": 10.4,
+    "height_inches": 7.3,
+    "dpi": 600
+  },
+  {
+    "name": "Figure_S12_CC25-11_SNP",
+    "area": "supplementary",
+    "width_inches": 10.4,
+    "height_inches": 7.3,
+    "dpi": 600
+  },
+  {
+    "name": "Figure_S12_CC25-12_SNP",
+    "area": "supplementary",
+    "width_inches": 10.4,
+    "height_inches": 7.3,
+    "dpi": 600
+  },
+  {
+    "name": "Figure_S11_ST335_tree_aligned_224",
+    "area": "supplementary",
+    "width_inches": 10.4,
+    "height_inches": 7.3,
+    "dpi": 600
+  },
+  {
+    "name": "Figure_S13_ST335-01_SNP",
+    "area": "supplementary",
+    "width_inches": 10.4,
+    "height_inches": 7.3,
+    "dpi": 600
+  },
+  {
+    "name": "Figure_S13_ST335-02_SNP",
+    "area": "supplementary",
+    "width_inches": 10.4,
+    "height_inches": 7.3,
+    "dpi": 600
+  },
+  {
+    "name": "Figure_S13_ST335-03_SNP",
+    "area": "supplementary",
+    "width_inches": 10.4,
+    "height_inches": 7.3,
+    "dpi": 600
+  },
+  {
+    "name": "Figure_S13_ST335-04_SNP",
+    "area": "supplementary",
+    "width_inches": 10.4,
+    "height_inches": 7.3,
+    "dpi": 600
+  },
+  {
+    "name": "Figure_S13_ST335-05_SNP",
+    "area": "supplementary",
+    "width_inches": 10.4,
+    "height_inches": 7.3,
+    "dpi": 600
+  },
+  {
+    "name": "Figure_S13_ST335-06_SNP",
+    "area": "supplementary",
+    "width_inches": 10.4,
+    "height_inches": 7.3,
+    "dpi": 600
+  },
+  {
+    "name": "Figure_S13_ST335-07_SNP",
+    "area": "supplementary",
+    "width_inches": 10.4,
+    "height_inches": 7.3,
+    "dpi": 600
+  }
+]

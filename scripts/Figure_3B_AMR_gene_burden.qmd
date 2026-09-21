@@ -1,0 +1,17 @@
+---
+title: "Salmonella Isangi: AMR gene burden"
+format:
+  html:
+    code-fold: true
+    embed-resources: true
+execute:
+  echo: true
+  warning: true
+  cache: false
+---
+
+```{r}
+source("scripts/lib/project.R")
+source("scripts/analysis/03_amr_burden.R")
+knitr::include_graphics(file.path(OUT, "main", "Figure_3B_AMR_gene_burden_preview.png"))
+```

@@ -1,0 +1,31 @@
+SPADES
+
+for f in *_1_*; do spades.py -l $f -2 ${f/_1_/_2_} -o ${f/_1_/_2_trimmed.fastq.gz/} --careful -t12; done
+
+##
+
+for f in *_1_*; do
+  read1="$f"
+  read2="${f/_1_/_2_}"
+  output_dir="/data/fast/salmonella/pjohnston/isangi/all_spades/${f/_1_*/assembly}"
+  mkdir -p "$output_dir"
+  spades.py -1 "$read1" -2 "$read2" -o "$output_dir" --careful -t 12
+done
+
+
+to run in parrallel.
+
+first generate a list of *_1_* files:
+
+ls *_1_* > file_list.txt
+
+
+##
+cat file_list.txt | parallel -j 8 '
+  read1={}
+  read2=${read1/_1_/_2_}
+  output_dir="/data/fast/salmonella/pjohnston/isangi/all_spades/${read1/_1_*/_assembly}"
+  mkdir -p "$output_dir"
+  spades.py -1 "$read1" -2 "$read2" -o "$output_dir" --careful -t 12
+'
+

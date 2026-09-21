@@ -1,0 +1,50 @@
+## Here we use shovill to quality assess and assemble the 16 (32 fastq files) pertaining to ERST study
+
+$ conda activate shovill
+ 
+ ##
+
+FASTQ_DIR="/data/fast/salmonella/enviro_water_samples/fastqs/2024.04.20"
+mkdir -p "/data/fast/salmonella/pjohnston/isangi/rigby/shovill_out_rigby"
+export FASTQ_DIR
+
+run_shovill() {
+    R1="$1"
+    BASE_NAME=$(basename "${R1}" "_1.fastq.gz")
+    R2="${R1/_1.fastq.gz/_2.fastq.gz}"  # Update to match R2 filename pattern
+
+    echo "Processing with R1: $R1 and R2: $R2"
+
+    if [[ -f "$R2" ]]; then
+        echo "Processing $BASE_NAME"
+        shovill \
+            --R1 "$R1" \
+            --R2 "$R2" \
+            --outdir "/data/fast/salmonella/pjohnston/isangi/rigby/shovill_out_rigby/${BASE_NAME}_output" \
+            --cpus 12 
+    else
+        echo "Missing R2 for $R1"
+    fi
+}
+export -f run_shovill
+parallel run_shovill ::: $(ls ${FASTQ_DIR}/*_1.fastq.gz)
+
+## the output has only appended the file identifier to the subdirctories contianing shovill ouput. Now need to append file name to the key outputs "*contigs.fa"
+
+#!/bin/bash
+
+# Define the parent directory where the subdirectories are located.
+PARENT_DIR="/data/fast/salmonella/pjohnston/isangi/rigby/shovill_out_rigby/"
+for SUBDIR in "$PARENT_DIR"/*_output; do
+    IDENTIFIER=$(basename "$SUBDIR" "_output")
+    cd "$SUBDIR"
+    for FILE in *; do
+        if [[ "$FILE" != "${IDENTIFIER}_"* ]]; then
+            mv "$FILE" "${IDENTIFIER}_$FILE"
+        fi
+    done
+    cd - > /dev/null  
+done
+echo "Files have been renamed successfully."
+
+
