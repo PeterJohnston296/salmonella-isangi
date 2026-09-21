@@ -6,7 +6,6 @@ permissions:
   contents: write
 jobs:
   assemble:
-    if: ${{ hashFiles('.release-chunks/manifest.tsv') != '' }}
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
